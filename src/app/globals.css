@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --color-gold: #ffc200;
+}
+
 @layer base {
   h2 {
-    @apply text-3xl lg:text-4xl xl:text-5xl font-semibold text-secondary;
+    @apply text-3xl lg:text-4xl xl:text-5xl font-semibold;
   }
 }
 

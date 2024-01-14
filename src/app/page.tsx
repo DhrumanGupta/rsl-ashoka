@@ -51,10 +51,14 @@ export default async function Home() {
           <PrizeBubble
             src={bubbles}
             prize="12,500"
-            textClassName="text-gray-300"
+            textClassName="text-silver"
           />
 
-          <PrizeBubble src={bubbles} prize="7,500" textClassName="text-am" />
+          <PrizeBubble
+            src={bubbles}
+            prize="7,500"
+            textClassName="text-bronze"
+          />
         </div>
 
         <h3 className="my-10 font-bold text-xl lg:text-2xl text-center">

@@ -8,7 +8,7 @@
 
 @layer base {
   h2 {
-    @apply text-3xl lg:text-4xl xl:text-5xl font-semibold;
+    @apply text-4xl lg:text-5xl xl:text-6xl font-semibold;
   }
 }
 

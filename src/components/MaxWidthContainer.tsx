@@ -10,7 +10,7 @@ function MaxWidthContainer({
 }) {
   return (
     <div className={cn("max-w-[100ch] mx-auto", className)}>
-      <div className="mx-16">{children}</div>
+      <div className="mx-8 md:mx-16">{children}</div>
     </div>
   );
 }

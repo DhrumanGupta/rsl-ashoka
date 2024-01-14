@@ -25,7 +25,7 @@ function Footer() {
         </p>
         {/* <hr className="my-4 divide-secondary h-[1px]" /> */}
         <p className="text-center text-gray-400 my-4 pt-4 border-t-[1px] border-t-gray-400">
-          © 2023 Ashoka Premier League. All Rights Reserved.
+          © 2024 Ashoka Racquet Sports League. All Rights Reserved.
         </p>
       </footer>
     </MaxWidthContainer>

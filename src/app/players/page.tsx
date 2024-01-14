@@ -1,26 +1,26 @@
-'use client';
+"use client";
 
-import cn from '@/lib/cn';
-import { useState } from 'react';
-import { Card, CardBody } from '@nextui-org/card';
-import Image from 'next/image';
-import MaxWidthContainer from '@/components/MaxWidthContainer';
+import cn from "@/lib/cn";
+import { useState } from "react";
+import { Card, CardBody } from "@nextui-org/card";
+import Image from "next/image";
+import MaxWidthContainer from "@/components/MaxWidthContainer";
 
 // Sample data
 const players = [
   {
-    name: 'Anshul Tekriwal',
-    imageUrl: '/img/AnshulTekriwal.jpg',
-    sports: ['badminton', 'tableTennis'],
+    name: "Anshul Tekriwal",
+    imageUrl: "/img/AnshulTekriwal.jpg",
+    sports: ["badminton", "tableTennis"],
     tier: 1,
   },
 ];
 
 const icons: { [key: string]: string } = {
-  badminton: '/img/badminton.svg',
-  tableTennis: '/img/tt.webp',
-  tennis: '/img/tennis.png',
-  squash: '/img/squash.png',
+  badminton: "/img/badminton.svg",
+  tableTennis: "/img/tt.webp",
+  tennis: "/img/tennis.png",
+  squash: "/img/squash.png",
 };
 
 const noTiers = 4;
@@ -45,9 +45,9 @@ function PlayerCard({ player }: { player: any }) {
         className={`mx-auto max-w-[250px] max-h-[250px] object-cover rounded-sm object-top`}
       />
       <CardBody>
-        <div className='text-center justify-center overflow-hidden py-2 w-full shadow-small z-10'>
-          <p className='text-[24px] font-bold'>{player.name}</p>
-          <div className='max-w-fit flex items-center gap-2 mx-auto'>
+        <div className="text-center justify-center overflow-hidden py-2 w-full shadow-small z-10">
+          <p className="text-[24px] font-bold">{player.name}</p>
+          <div className="max-w-fit flex items-center gap-2 mx-auto">
             {player.sports.map((sport: string) => {
               return (
                 <Image
@@ -121,7 +121,7 @@ export default function Timeline() {
           TIER {tier}
         </p>
 
-        <div className='flex flex-col mx-auto w-3/4 items-center'>
+        <div className="flex flex-col mx-auto w-3/4 items-center">
           {players
             .filter((player: any) => player.tier == tier)
             .map((player: any) => {

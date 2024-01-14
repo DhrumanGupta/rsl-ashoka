@@ -1,5 +1,6 @@
 import Image, { StaticImageData } from "next/image";
-import { Button, Card } from "@nextui-org/react";
+import { Button } from "@nextui-org/button";
+import { Card } from "@nextui-org/card";
 import Link from "next/link";
 
 type LandingPageCardProps = {

@@ -11,7 +11,7 @@ const font = Poppins({
 });
 
 const baseUrl = "https://racquetsportsleague.com";
-const title = "Ashoka Racket Sports League";
+const title = "Ashoka Racquet Sports League";
 const description = "Ashoka's RPL";
 
 export const metadata: Metadata = {

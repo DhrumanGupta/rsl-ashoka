@@ -30,14 +30,14 @@ export default async function Home() {
         <div className="flex w-full h-full items-center justify-center child:z-10">
           <MaxWidthContainer>
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl my-6 text-center font-extrabold">
-              Ashoka Racket Sports League
+              Ashoka Racquet Sports League
             </h1>
           </MaxWidthContainer>
         </div>
       </div>
       <MaxWidthContainer className="mt-16">
         <p className="text-lg text-center text-content">
-          Welcome to the Ashoka Racket Sports League, where badminton, tennis,
+          Welcome to the Ashoka Racquet Sports League, where badminton, tennis,
           squash, and table tennis come together for a dynamic sporting
           experience. Join us in celebrating the joy of play and friendly
           competition in this one-of-a-kind league!

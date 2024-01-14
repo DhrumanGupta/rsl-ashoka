@@ -14,6 +14,8 @@ import { Button } from "@nextui-org/button";
 import { Link } from "@nextui-org/link";
 import { usePathname } from "next/navigation";
 // import { AcmeLogo } from "./AcmeLogo.jsx";
+import LogoImage from "@/../public/logo.png";
+import Image from "next/image";
 
 const LINKS = [
   { name: "Home", href: "/" },
@@ -30,7 +32,12 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <Navbar position="sticky" maxWidth="xl" onMenuOpenChange={setIsMenuOpen}>
+    <Navbar
+      position="sticky"
+      className="h-20"
+      maxWidth="xl"
+      onMenuOpenChange={setIsMenuOpen}
+    >
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -39,7 +46,16 @@ export default function Header() {
         <Link href="/" color="foreground" className="sm:block hidden">
           <NavbarBrand>
             {/* <AcmeLogo /> */}
-            <p className="font-bold text-inherit">LOGO</p>
+            <span className="relative w-20 h-20">
+              <Image
+                fill={true}
+                // placeholder="blur"
+                src={LogoImage}
+                alt={"RSL Logo"}
+                className="object-contain"
+              />
+            </span>
+            {/* <p className="font-bold text-inherit">LOGO</p> */}
           </NavbarBrand>
         </Link>
       </NavbarContent>

@@ -24,9 +24,10 @@ export default function RootLayout({
       <body className={font.className}>
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
           <Header />
-          <div className="max-w-[100ch] mx-auto">
-            <main className="mx-16">{children}</main>
-          </div>
+          {/* <div className="max-w-[100ch] mx-auto"> */}
+          {/* <main className="mx-16">{children}</main> */}
+          {/* </div> */}
+          {children}
         </Providers>
       </body>
     </html>

@@ -9,6 +9,13 @@ const config: Config = {
   ],
   // safelist: ["sm:hidden ssm:flex"],
   darkMode: "class",
+  theme: {
+    extend: {
+      height: {
+        hero: "calc(100vh - 4rem)",
+      },
+    },
+  },
   plugins: [
     nextui({
       addCommonColors: true,
@@ -26,6 +33,11 @@ const config: Config = {
       },
     }),
     require("@tailwindcss/aspect-ratio"),
+
+    // @ts-ignore
+    function ({ addVariant, addComponents }) {
+      addVariant("child", "& > *");
+    },
   ],
 };
 export default config;

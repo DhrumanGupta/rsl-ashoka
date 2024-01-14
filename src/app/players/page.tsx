@@ -166,7 +166,7 @@ export default function Timeline() {
           <h1 className='text-5xl md:text-8xl my-4 text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400'>
             THE PLAYERS
           </h1>
-          <p className='text-base md:text-lg'>See the players in each tier. Click on the tier to see the players in</p>
+          {/* <p className='text-base md:text-lg'>See the players in each tier. Click on the tier to see the players in</p> */}
         </MaxWidthContainer>
 
         {

@@ -1,7 +1,7 @@
 'use client';
 
 import cn from '@/lib/cn';
-import { useCallback, useState } from 'react';
+import { useState } from 'react';
 import { Card, CardBody } from '@nextui-org/card';
 import Image from 'next/image';
 import { Button } from '@nextui-org/button';

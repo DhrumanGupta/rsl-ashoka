@@ -1,5 +1,5 @@
 import cn from '@/lib/cn';
-import { Card, CardBody, CardFooter } from '@nextui-org/Card';
+import { Card, CardBody, CardFooter } from '@nextui-org/card';
 import { Image } from '@nextui-org/image';
 import './styles.css';
 

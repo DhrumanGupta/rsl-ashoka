@@ -291,7 +291,7 @@
     "bio": "Passionate tennis enthusiast with a racket in hand and ambition in heart. Part of the women's tennis team at Ashoka. Team oriented and hardworking.",
     "photo": "1dv9wCwFRecFssVKcL5PibkLm3YtQx7et",
     "sports": ["tennis", "badminton"],
-    "tier": 2,
+    "tier": 3,
     "imagePosition": "t",
     "price": 0,
     "team": ""
@@ -984,7 +984,7 @@
     "bio": "",
     "photo": "11u0Wws8qfBStcJQXFDLLL-NBJ03hu3mG",
     "sports": ["tennis", "badminton"],
-    "tier": 4,
+    "tier": 3,
     "imagePosition": "b",
     "price": 0,
     "team": ""

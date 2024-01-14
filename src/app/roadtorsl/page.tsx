@@ -1,5 +1,6 @@
 import cn from '@/lib/cn';
-import { Card, CardHeader, CardBody, CardFooter, Image } from '@nextui-org/react';
+import { Card, CardBody, CardFooter } from '@nextui-org/Card';
+import { Image } from '@nextui-org/image';
 import './styles.css';
 
 // Sample data

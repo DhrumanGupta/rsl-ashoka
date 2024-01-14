@@ -1,18 +1,18 @@
-import type { Config } from "tailwindcss";
-import { nextui } from "@nextui-org/react";
+import type { Config } from 'tailwindcss';
+import { nextui } from '@nextui-org/react';
 
 const config: Config = {
   content: [
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./node_modules/@nextui-org/theme/dist/components/(navbar|button|link).js",
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './node_modules/@nextui-org/theme/dist/components/(navbar|button|link).js',
   ],
   // safelist: ["sm:hidden ssm:flex"],
-  darkMode: "class",
+  darkMode: 'class',
   theme: {
     extend: {
       height: {
-        hero: "calc(100vh - 5rem)",
+        hero: 'calc(100vh - 5rem)',
       },
     },
   },
@@ -22,23 +22,23 @@ const config: Config = {
       themes: {
         dark: {
           colors: {
-            primary: "#2E3192",
-            secondary: "#FFC200",
+            primary: '#0e3882',
+            secondary: '#fec200',
           },
         },
         light: {
           colors: {
-            primary: "#2E3192",
-            secondary: "#FFC200",
+            primary: '#2E3192',
+            secondary: '#FFC200',
           },
         },
       },
     }),
-    require("@tailwindcss/aspect-ratio"),
+    require('@tailwindcss/aspect-ratio'),
 
     // @ts-ignore
     function ({ addVariant, addComponents }) {
-      addVariant("child", "& > *");
+      addVariant('child', '& > *');
     },
   ],
 };

@@ -1,8 +1,9 @@
 import { StaticImageData } from "next/image";
 
-type HeroImage = {
-  src: StaticImageData;
+type THeroImage = {
+  src: string;
   alt: string;
+  base64: string;
 };
 
-export { HeroImage };
+export type { THeroImage };

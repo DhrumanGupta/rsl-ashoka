@@ -12,7 +12,7 @@ const config: Config = {
   theme: {
     extend: {
       height: {
-        hero: "calc(100vh - 4rem)",
+        hero: "calc(100vh - 5rem)",
       },
     },
   },
@@ -22,12 +22,14 @@ const config: Config = {
       themes: {
         dark: {
           colors: {
-            secondary: "#fff",
+            primary: "#2E3192",
+            secondary: "#FFC200",
           },
         },
         light: {
           colors: {
-            secondary: "#fff",
+            primary: "#2E3192",
+            secondary: "#FFC200",
           },
         },
       },

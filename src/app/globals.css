@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .text-content {
+    @apply text-lg lg:text-xl;
+  }
+}

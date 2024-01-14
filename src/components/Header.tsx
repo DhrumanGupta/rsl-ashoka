@@ -21,6 +21,7 @@ const LINKS = [
   { name: "Home", href: "/" },
   { name: "RoadToRSL", href: "/roadtorsl" },
   { name: "Schedule", href: "/schedule" },
+  { name: "Players", href: "/players" },
   // { name: "RoadToAPL", href: "/roadtoapl" },
   // { name: "Registration", href: "/registration" },
   // { name: "Slots", href: "/slots" },
@@ -60,7 +61,7 @@ export default function Header() {
         </Link>
       </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
+      <NavbarContent className="hidden sm:flex gap-8" justify="center">
         {LINKS.map((link) => (
           <NavbarItem key={link.href}>
             <Link

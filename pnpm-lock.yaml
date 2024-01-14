@@ -8,6 +8,9 @@ dependencies:
   '@nextui-org/react':
     specifier: ^2.2.9
     version: 2.2.9(@types/react@18.2.46)(framer-motion@10.17.6)(react-dom@18.2.0)(react@18.2.0)(tailwind-variants@0.1.20)(tailwindcss@3.4.0)
+  '@plaiceholder/next':
+    specifier: ^3.0.0
+    version: 3.0.0(next@14.0.4)(plaiceholder@3.0.0)(sharp@0.33.1)
   clsx:
     specifier: ^2.1.0
     version: 2.1.0
@@ -20,6 +23,9 @@ dependencies:
   next-themes:
     specifier: ^0.2.1
     version: 0.2.1(next@14.0.4)(react-dom@18.2.0)(react@18.2.0)
+  plaiceholder:
+    specifier: ^3.0.0
+    version: 3.0.0(sharp@0.33.1)
   react:
     specifier: ^18
     version: 18.2.0
@@ -1848,6 +1854,18 @@ packages:
     engines: {node: '>=14'}
     requiresBuild: true
     optional: true
+
+  /@plaiceholder/next@3.0.0(next@14.0.4)(plaiceholder@3.0.0)(sharp@0.33.1):
+    resolution: {integrity: sha512-7UK/H1X64hwo2VaxOPKMXE+OY9IgmKLPsq/xKHZ+gU07oqQSfIWWIgpVVucMB3ZgVYah+68agR15BRuSxAuMHw==}
+    peerDependencies:
+      next: '>= 10.0.0'
+      plaiceholder: '>=3.0.0'
+      sharp: '>= 0.30.6'
+    dependencies:
+      next: 14.0.4(react-dom@18.2.0)(react@18.2.0)
+      plaiceholder: 3.0.0(sharp@0.33.1)
+      sharp: 0.33.1
+    dev: false
 
   /@react-aria/breadcrumbs@3.5.9(react@18.2.0):
     resolution: {integrity: sha512-asbXTL5NjeHl1+YIF0K70y8tNHk8Lb6VneYH8yOkpLO49ejyNDYBK0tp0jtI9IZAQiTa2qkhYq58c9LloTwebQ==}
@@ -4623,6 +4641,14 @@ packages:
   /pirates@4.0.6:
     resolution: {integrity: sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg==}
     engines: {node: '>= 6'}
+
+  /plaiceholder@3.0.0(sharp@0.33.1):
+    resolution: {integrity: sha512-jwHxxHPnr1BwRzPCeZgEK2BMsEy2327sWynw3qb6XC/oGgGDUTPtR8pFxFQmNArhMBwhkUbUr5OPhhIJpCa8eQ==}
+    peerDependencies:
+      sharp: '>= 0.30.6'
+    dependencies:
+      sharp: 0.33.1
+    dev: false
 
   /postcss-import@15.1.0(postcss@8.4.32):
     resolution: {integrity: sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==}

@@ -6,6 +6,9 @@ import { THeroImage } from "@/types";
 import HeroImage from "@/components/HeroImage";
 import { getPlaceholderLocal } from "@/lib/getPlaiceholder";
 
+import bubbles from "@/../public/bubbles.png";
+import PrizeBubble from "@/components/PrizeBubble";
+
 const Images: THeroImage[] = [
   { src: "/hero_squash.webp", alt: "Squash Court", base64: "" },
   { src: "/hero_tennis.webp", alt: "Tennis Court", base64: "" },
@@ -39,6 +42,25 @@ export default async function Home() {
           experience. Join us in celebrating the joy of play and friendly
           competition in this one-of-a-kind league!
         </p>
+
+        <h2 className="text-center my-16">Prizes</h2>
+
+        <div className="grid md:grid-cols-3">
+          <PrizeBubble src={bubbles} prize="25,000" textClassName="text-gold" />
+
+          <PrizeBubble
+            src={bubbles}
+            prize="12,500"
+            textClassName="text-gray-300"
+          />
+
+          <PrizeBubble src={bubbles} prize="7,500" textClassName="text-am" />
+        </div>
+
+        <h3 className="my-10 font-bold text-xl lg:text-2xl text-center">
+          Coming Soon!
+        </h3>
+
         {/* <div className="mt-6 grid md:grid-cols-3 gap-8">
           <LandingPageCard
             image={BgImage}
@@ -59,9 +81,6 @@ export default async function Home() {
             keywords={["Players", "Tiers", "Prices"]}
           />
         </div> */}
-        <h3 className="my-10 font-bold text-xl lg:text-2xl text-center">
-          Coming Soon!
-        </h3>
       </MaxWidthContainer>
     </main>
   );

@@ -28,6 +28,18 @@ const LINKS = [
   // { name: "Seasons", href: "/seasons" },
 ];
 
+const Logo = () => (
+  <span className="relative w-20 h-20">
+    <Image
+      fill={true}
+      // placeholder="blur"
+      src={LogoImage}
+      alt={"RSL Logo"}
+      className="object-contain"
+    />
+  </span>
+);
+
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();
@@ -46,17 +58,7 @@ export default function Header() {
         />
         <Link href="/" color="foreground" className="sm:block hidden">
           <NavbarBrand>
-            {/* <AcmeLogo /> */}
-            <span className="relative w-20 h-20">
-              <Image
-                fill={true}
-                // placeholder="blur"
-                src={LogoImage}
-                alt={"RSL Logo"}
-                className="object-contain"
-              />
-            </span>
-            {/* <p className="font-bold text-inherit">LOGO</p> */}
+            <Logo />
           </NavbarBrand>
         </Link>
       </NavbarContent>
@@ -92,7 +94,9 @@ export default function Header() {
         <Link href="/" color="foreground" className="block sm:hidden">
           <NavbarBrand>
             {/* <AcmeLogo /> */}
-            <p className="font-bold text-inherit">LOGO</p>
+            <Logo />
+
+            {/* <p className="font-bold text-inherit">LOGO</p> */}
           </NavbarBrand>
         </Link>
       </NavbarContent>
@@ -107,7 +111,7 @@ export default function Header() {
           </Button>
         </NavbarItem> */}
       </NavbarContent>
-      <NavbarMenu>
+      <NavbarMenu className="mt-2 from-black   to-black/40 bg-gradient-to-b">
         {LINKS.map((link, index) => (
           <NavbarMenuItem key={link.href}>
             <Link

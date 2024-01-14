@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h2 {
+    @apply text-3xl lg:text-4xl xl:text-5xl font-semibold text-secondary;
+  }
+}
+
 @layer utilities {
   .text-content {
     @apply text-lg lg:text-xl;

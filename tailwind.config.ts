@@ -19,6 +19,7 @@ const config: Config = {
         gold: colors.amber[400],
         silver: colors.gray[300],
         bronze: colors.amber[600],
+        fourth: colors.cyan[400],
       },
     },
   },

@@ -1,12 +1,12 @@
-import type { Config } from "tailwindcss";
-import { nextui } from "@nextui-org/theme";
-import colors from "tailwindcss/colors";
+import type { Config } from 'tailwindcss';
+import { nextui } from '@nextui-org/theme';
+import colors from 'tailwindcss/colors';
 
 const config: Config = {
   content: [
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./node_modules/@nextui-org/theme/dist/components/(button|card|image|navbar).js",
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './node_modules/@nextui-org/theme/dist/components/(button|card|image|navbar|modal).js',
   ],
   // safelist: ["sm:hidden ssm:flex"],
   darkMode: 'class',

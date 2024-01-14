@@ -1,16 +1,10 @@
-import cn from "@/lib/cn";
-import React from "react";
+import cn from '@/lib/cn';
+import React from 'react';
 
-function MaxWidthContainer({
-  children,
-  className,
-}: {
-  children: React.ReactNode;
-  className?: string;
-}) {
+function MaxWidthContainer({ children, className }: { children: React.ReactNode; className?: string }) {
   return (
-    <div className={cn("max-w-[100ch] mx-auto", className)}>
-      <div className="mx-8 md:mx-16">{children}</div>
+    <div className={cn('max-w-[110ch] mx-auto', className)}>
+      <div className='mx-8 md:mx-16'>{children}</div>
     </div>
   );
 }

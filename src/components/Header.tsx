@@ -44,11 +44,7 @@ export default function Header() {
       <NavbarContent className='hidden sm:flex gap-8' justify='center'>
         {LINKS.map((link) => (
           <NavbarItem key={link.href}>
-            <Link
-              color={pathname === link.href ? 'secondary' : 'foreground'}
-              className='font-medium'
-              // color="foreground"
-              href={link.href}>
+            <Link color={pathname === link.href ? 'secondary' : 'foreground'} className='font-medium' href={link.href}>
               {link.name}
             </Link>
           </NavbarItem>

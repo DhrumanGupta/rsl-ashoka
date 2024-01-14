@@ -2,24 +2,27 @@ import LandingPageCard from "@/components/LandingPageCard";
 import BgImage from "../../public/bg.jpg";
 import MaxWidthContainer from "@/components/MaxWidthContainer";
 import Image from "next/image";
-import squash from "@/../public/hero_main.png";
+import { THeroImage } from "@/types";
+import HeroImage from "@/components/HeroImage";
+import { getPlaceholderLocal } from "@/lib/getPlaiceholder";
 
-const Images: HeroImage[] = [
-  { src: "/hero0.webp", alt: "A picture of me next to a sunset", base64: "" },
-  { src: "/hero1.webp", alt: "Me on the beach", base64: "" },
+const Images: THeroImage[] = [
+  { src: "/hero_squash.webp", alt: "Squash Court", base64: "" },
+  { src: "/hero_tennis.webp", alt: "Tennis Court", base64: "" },
+  { src: "/hero_tt.webp", alt: "Table Tennis Court", base64: "" },
+  { src: "/hero_badminton.webp", alt: "Badminton Court", base64: "" },
 ];
 
-export default function Home() {
+export default async function Home() {
+  for (const image of Images) {
+    image.base64 = await getPlaceholderLocal(image.src);
+  }
+
   return (
     <main>
       <div className="h-hero relative">
         <div className="absolute w-full h-full">
-          <Image
-            src={bg}
-            alt="Picture of tennis court"
-            className="opacity-50 object-cover"
-            fill={true}
-          />
+          <HeroImage images={Images} />
         </div>
         <div className="flex w-full h-full items-center justify-center child:z-10">
           <MaxWidthContainer>
@@ -29,14 +32,14 @@ export default function Home() {
           </MaxWidthContainer>
         </div>
       </div>
-      <MaxWidthContainer>
-        <p className="text-lg text-center ">
-          Organised by Dhrthi Bhat and Uday Srivastava, this season will be
-          taking place from the 21st to 23rd April, 2023. With increased team
-          budgets of 150 million (yes, 150), we are expecting more action, drama
-          and competition from the get-go.
+      <MaxWidthContainer className="mt-16">
+        <p className="text-lg text-center text-content">
+          Welcome to the Ashoka Racket Sports League, where badminton, tennis,
+          squash, and table tennis come together for a dynamic sporting
+          experience. Join us in celebrating the joy of play and friendly
+          competition in this one-of-a-kind league!
         </p>
-        <div className="mt-6 grid md:grid-cols-3 gap-8">
+        {/* <div className="mt-6 grid md:grid-cols-3 gap-8">
           <LandingPageCard
             image={BgImage}
             title="Players"
@@ -55,8 +58,10 @@ export default function Home() {
             href="/players"
             keywords={["Players", "Tiers", "Prices"]}
           />
-        </div>
-        <p className="my-10">Hello</p>
+        </div> */}
+        <h3 className="my-10 font-bold text-xl lg:text-2xl text-center">
+          Coming Soon!
+        </h3>
       </MaxWidthContainer>
     </main>
   );

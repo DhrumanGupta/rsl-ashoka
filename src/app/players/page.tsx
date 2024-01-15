@@ -14,6 +14,12 @@ import TennisSVG from '@/../public/img/tennis.svg';
 import SquashSVG from '@/../public/img/squash.svg';
 import Link from 'next/link';
 
+const sortedPlayers = players.sort((a: any, b: any) => {
+  if (a.name < b.name) return -1;
+  else if (a.name > b.name) return 1;
+  else return 0;
+});
+
 const icons: { [key: string]: any } = {
   badminton: BadmintonSVG,
   tableTennis: TableTennisSVG,
@@ -197,7 +203,7 @@ export default function Timeline() {
 
                 <MaxWidthContainer>
                   <div className='grid grid-cols-1 sm:grid-cols-2 min-[1080px]:grid-cols-3 mx-auto items-center gap-12 w-11/12 md:w-full'>
-                    {players
+                    {sortedPlayers
                       .filter((player: any) => player.tier == tier)
                       .map((player: any) => {
                         return (

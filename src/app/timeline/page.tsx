@@ -174,7 +174,13 @@ export default function Timeline() {
       <div className="flex flex-col">
         {events2D.map((eventRow: any, i: any) => {
           return (
-            <div key={i} className="flex flex-col lg:flex-row items-stretch">
+            <div
+              key={i}
+              className={cn(
+                "flex flex-col lg:flex-row items-stretch",
+                i % 2 === 1 && "flex-col-reverse"
+              )}
+            >
               {eventRow.map((event: any, j: any) => {
                 return (
                   <EventCard

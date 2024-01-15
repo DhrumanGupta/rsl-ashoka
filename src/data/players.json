@@ -7,8 +7,8 @@
     "sports": ["badminton", "tableTennis"],
     "tier": 4,
     "imagePosition": "t",
-    "price": 1000000,
-    "team": "Test"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Pradyuma Subhir",
@@ -1361,6 +1361,17 @@
     "tier": 1,
     "imagePosition": "t",
     "price": 0,
+    "team": ""
+  },
+  {
+    "name": "Avyay Irde",
+    "category": "Cis Man",
+    "bio": "One time ABA winner.\nMake of that, what you will.",
+    "photo": "1lW52p9sd48TxP5Rrhx-zJ-YkjtG9hOv1",
+    "sports": ["badminton", "squash", "tableTennis"],
+    "tier": 4,
+    "imagePosition": "c",
+    "price": 1,
     "team": ""
   }
 ]

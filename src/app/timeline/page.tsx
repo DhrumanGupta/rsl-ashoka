@@ -29,7 +29,7 @@ const events = [
     imageUrl: "/binocular.jpeg",
   },
   {
-    date: "Soon",
+    date: "25th January",
     title: "Auction",
     description:
       "Teams battle it out to build not only a single best team, but four best teams! Watch as the teams drain their wallets to build what is needed to win!",

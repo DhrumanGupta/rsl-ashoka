@@ -9,7 +9,7 @@ const events = [
     date: "31st December",
     title: "Player Registration",
     description:
-      "Player registrations are closed! A total of 125 players registered, get ready for game time!",
+      "Player registrations are closed! Get ready for game time!",
     imageUrl:
       "https://lh3.googleusercontent.com/d/1XAi8Anp0W7IAwGaIxOsD15QUWnyU1KFE=s1080",
     imageUrlBlur:
@@ -19,7 +19,7 @@ const events = [
     date: "11th January",
     title: "Owner registration",
     description:
-      "A total of 10 owners registered for the league. Watch as the owners meticulously scout players over the coming days!",
+      "A total of 12 owners registered for the league. Watch as the owners meticulously scout players over the coming days!",
     imageUrl: "/ownerregistration.webp",
   },
   {

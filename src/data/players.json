@@ -1362,5 +1362,38 @@
     "imagePosition": "c",
     "price": 1,
     "team": ""
+  },
+  {
+    "name": "Arhaan Gupta",
+    "category": "Cis Man",
+    "bio": "",
+    "photo": "1RolR4lRQfxw5GVslQ1EOiZ91sf82CVVk",
+    "sports": ["tennis", "tableTennis", "badminton"],
+    "tier": 4,
+    "imagePosition": "c",
+    "price": 0,
+    "team": ""
+  },
+  {
+    "name": "Manish Gupta",
+    "category": "Cis Man",
+    "bio": "",
+    "photo": "1JFwo9Ja__eNLcMSxZJIBF0kNfX3q0xPG",
+    "sports": ["badminton"],
+    "tier": 3,
+    "imagePosition": "c",
+    "price": 0,
+    "team": ""
+  },
+  {
+    "name": "Sunil Kataria",
+    "category": "Cis Man",
+    "bio": "",
+    "photo": "1A2dipwosxNz1lvLLiWwqrelJjWDXYj9c",
+    "sports": ["badminton"],
+    "tier": 3,
+    "imagePosition": "c",
+    "price": 0,
+    "team": ""
   }
 ]

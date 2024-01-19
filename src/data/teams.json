@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Chhatti Pass",
+    "manager": "Anushka Gupta",
+    "owners": ["Navya Tripuri", "Anushka Gautam", "Avisikta Sinha"],
+    "players": []
+  },
+  {
+    "name": "Club Penguin",
+    "manager": "Aryamaan Girish",
+    "owners": ["Sridhanya Karumanchi", "Aryamaan Girish", "Lakshya Bamal", "Jaee Ponde", "Adhiraj Singh"],
+    "players": []
+  },
+  {
+    "name": "L\u00f6ded Diper",
+    "manager": "Aditya Deshmukh",
+    "owners": [
+      "Aditya Deshmukh",
+      "Umang Chauhan",
+      "Parvi Takkar",
+      "Vritti Kohli",
+      "Arnav Gupta",
+      "Ammar Safwi",
+      "Arnav Akhaury",
+      "Sanah Arora",
+      "Deepanshu Bhushan"
+    ],
+    "players": []
+  },
+  {
+    "name": "Haryana Hit Squad",
+    "manager": "Myraa Ramchandani",
+    "owners": ["Krishna Arora", "Myraa Ramchandani"],
+    "players": []
+  },
+  {
+    "name": "Pineapple Express",
+    "manager": "Shashwat Agrawal",
+    "owners": ["Nishant Kumar", "Shyamali Tewari", "Vamika Dadoo"],
+    "players": []
+  },
+  {
+    "name": "Asawarpur Racketeers",
+    "manager": "Reya Verma",
+    "owners": ["Vibha Rawat", "Asmi Goel", "Reya Verma"],
+    "players": []
+  },
+  {
+    "name": "The Three Racketeers",
+    "manager": "Ailiya Philips",
+    "owners": ["Ailiya Philips", "Tanisha Iyer", "Ahana Lal"],
+    "players": []
+  },
+  {
+    "name": "Illegal Racquets",
+    "manager": "Shaurya Walia",
+    "owners": ["Shaurya Walia", "Aadi Menon", "Krishnam Daga", "Sushmita Gupta", "Rutuj"],
+    "players": []
+  },
+  {
+    "name": "Theka Sonipat",
+    "manager": "Shreyas Balasubramanian",
+    "owners": ["Aditii Pandey", "Tannuvi Agarwal", "Roshni Agarwal", "Vaibav Saraf"],
+    "players": []
+  },
+  {
+    "name": "Magic Moments",
+    "manager": "Amanvir Singh Gill",
+    "owners": ["Harshit Amarnani", "Amanvir Singh Gill", "Faariq Aashiq Wani", "Shrey Sethi"],
+    "players": []
+  },
+  {
+    "name": "Toofan Express",
+    "manager": "Saransh Goel",
+    "owners": ["Saransh", "Arya", "Nisanka", "Dhruman", "Rushil", "Bhavya"],
+    "players": []
+  },
+  {
+    "name": "Incognito Mode",
+    "manager": "Garima Upadhyay",
+    "owners": ["Malvika Choraria", "Purvi Tantia", "Garima Upadhyay", "Kashish Poddar"],
+    "players": []
+  }
+]

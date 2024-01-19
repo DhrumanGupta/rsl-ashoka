@@ -1395,5 +1395,16 @@
     "imagePosition": "c",
     "price": 0,
     "team": ""
+  },
+  {
+    "name": "Nagib Mehfuz",
+    "category": "Cis Man",
+    "bio": "",
+    "photo": "1YFkNRKg_sV2KYC-WiQnjPVtBTtH7965B",
+    "sports": ["badminton"],
+    "tier": 3,
+    "imagePosition": "c",
+    "price": 0,
+    "team": ""
   }
 ]

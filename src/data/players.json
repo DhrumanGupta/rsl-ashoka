@@ -77,17 +77,6 @@
     "team": ""
   },
   {
-    "name": "Prithvi Bapna",
-    "category": "Cis Man",
-    "bio": "",
-    "photo": "1555IxMjQiybHut0MLfxYje2yS7CmoNSP",
-    "sports": ["badminton"],
-    "tier": 1,
-    "imagePosition": "c",
-    "price": 0,
-    "team": ""
-  },
-  {
     "name": "Manika Jindal",
     "category": "Non Cis Man",
     "bio": "",
@@ -194,17 +183,6 @@
     "sports": ["badminton", "tableTennis", "squash"],
     "tier": 1,
     "imagePosition": "l",
-    "price": 0,
-    "team": ""
-  },
-  {
-    "name": "Amanvir Singh Gill",
-    "category": "Cis Man",
-    "bio": "I have trained and played tennis competitively at school level. I have also played table tennis and badminton throughout my schooling years.",
-    "photo": "1z0xqfEfTIPpp_0gheJJgrw2X1mWsatfo",
-    "sports": ["tennis", "badminton", "tableTennis"],
-    "tier": 3,
-    "imagePosition": "c",
     "price": 0,
     "team": ""
   },

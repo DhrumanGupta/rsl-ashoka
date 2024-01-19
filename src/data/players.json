@@ -1379,7 +1379,11 @@
     "category": "Cis Man",
     "bio": "",
     "photo": "1YFkNRKg_sV2KYC-WiQnjPVtBTtH7965B",
-    "sports": ["badminton"]
+    "sports": ["badminton"],
+    "tier": 3,
+    "imagePosition": "c",
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Smayan Chada",

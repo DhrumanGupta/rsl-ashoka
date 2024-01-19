@@ -77,17 +77,6 @@
     "team": ""
   },
   {
-    "name": "Prithvi Bapna",
-    "category": "Cis Man",
-    "bio": "",
-    "photo": "1555IxMjQiybHut0MLfxYje2yS7CmoNSP",
-    "sports": ["badminton"],
-    "tier": 1,
-    "imagePosition": "c",
-    "price": 0,
-    "team": ""
-  },
-  {
     "name": "Manika Jindal",
     "category": "Non Cis Man",
     "bio": "",
@@ -137,7 +126,7 @@
     "bio": "\ud83d\udc4d\ud83d\udc4d\ud83d\udc4d",
     "photo": "1DimV1sLdF5RHvZjcGoy9RIW8yd2VRaYu",
     "sports": ["badminton", "tableTennis", "tennis"],
-    "tier": 2,
+    "tier": 1,
     "imagePosition": "t",
     "price": 0,
     "team": ""
@@ -194,17 +183,6 @@
     "sports": ["badminton", "tableTennis", "squash"],
     "tier": 1,
     "imagePosition": "l",
-    "price": 0,
-    "team": ""
-  },
-  {
-    "name": "Amanvir Singh Gill",
-    "category": "Cis Man",
-    "bio": "I have trained and played tennis competitively at school level. I have also played table tennis and badminton throughout my schooling years.",
-    "photo": "1z0xqfEfTIPpp_0gheJJgrw2X1mWsatfo",
-    "sports": ["tennis", "badminton", "tableTennis"],
-    "tier": 3,
-    "imagePosition": "c",
     "price": 0,
     "team": ""
   },
@@ -1183,7 +1161,7 @@
     "photo": "11R4UhGMaPhpeMKYxNqqVsKTtMujZ6eRp",
     "sports": ["badminton"],
     "tier": 3,
-    "imagePosition": "c",
+    "imagePosition": "t",
     "price": 0,
     "team": ""
   },
@@ -1401,7 +1379,14 @@
     "category": "Cis Man",
     "bio": "",
     "photo": "1YFkNRKg_sV2KYC-WiQnjPVtBTtH7965B",
-    "sports": ["badminton"],
+    "sports": ["badminton"]
+  },
+  {
+    "name": "Smayan Chada",
+    "category": "Cis Man",
+    "bio": "",
+    "photo": "1WsI2Bu4wzgsk566RD3oVm3g7mosIAtHr",
+    "sports": ["tableTennis", "badminton", "tennis"],
     "tier": 3,
     "imagePosition": "c",
     "price": 0,

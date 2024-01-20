@@ -1,7 +1,7 @@
 import cn from '@/lib/cn';
 import { Card, CardBody, CardFooter } from '@nextui-org/card';
 import Image from 'next/image';
-import './styles.css';
+import Link from 'next/link';
 
 // Sample data
 const events = [
@@ -29,7 +29,8 @@ const events = [
     title: 'Auction',
     description:
       'Teams battle it out to build not only a single best team, but four best teams! Watch as the teams drain their wallets to build what is needed to win!',
-
+    link: 'https://docs.google.com/document/d/1FI8z1V3RM2jDNglKPXott7nW5CozqJIMKV-wlnKJgRk/edit',
+    linkText: 'View Rules',
     imageUrl: '/auction.jpg',
   },
   {
@@ -105,13 +106,9 @@ function EventCard({ event, i, j, today }: { event: any; i: number; today: Date;
             <Image
               src={event.imageUrl}
               blurDataURL={event.imageUrlBlur}
-              // placeholder="blur"
-              placeholder={event.imageUrlBlur && 'blur'}
+              placeholder={event.imageUrlBlur ? 'blur' : 'empty'}
               alt={event.title}
-              // width={350}
-              // height={350}
               fill={true}
-              // radius="lg"
               className={event.imageContain ? 'object-contain' : `object-cover`}
             />
             <CardFooter className='text-center justify-center before:bg-black/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small z-10'>
@@ -126,7 +123,12 @@ function EventCard({ event, i, j, today }: { event: any; i: number; today: Date;
           <Card className={`card-back bg-zinc-900 p-5 ${sizeStyle} z-10`}>
             <CardBody className='text-center'>
               <p className='text-2xl font-bold mt-2 mb-4'>{event.title}</p>
-              <p className='text-base my-auto pb-8'>{event.description}</p>
+              <p className='text-base my-auto pb-2'>{event.description}</p>
+              {event.link && event.linkText && (
+                <Link href={event.link} target='_blank' className='text-blue-500 underline decoration-blue-500'>
+                  {event.linkText}
+                </Link>
+              )}
             </CardBody>
           </Card>
         </div>

@@ -1298,6 +1298,17 @@
     "team": ""
   },
   {
+    "name": "Nishant Kumar",
+    "category": "Cis Man",
+    "bio": "I don\u2019t know how to play any of the aforementioned sports. I still don\u2019t know if I should hold the racquet with my left or right hand. I'm colorblind and here for the vibes.",
+    "photo": "1Lk6mNXxYie-5f57_w39t41FFQ8QntUaW",
+    "sports": ["badminton", "squash", "tableTennis"],
+    "tier": 3,
+    "imagePosition": "c",
+    "price": 0,
+    "team": ""
+  },
+  {
     "name": "Quanisha Saboo",
     "category": "Non Cis Man",
     "bio": "ABL 1.0 Player heree! know 100 ways to fail but promise 110% effort. That 10% difference worked out last time, will try my best againn! (be it by sprinting from one end of the court to the other during the matches to not miss a shot, like last time...lol or by fine-tuning other sports)!",
@@ -1364,34 +1375,12 @@
     "team": ""
   },
   {
-    "name": "Nagib Mehfuz",
-    "category": "Cis Man",
-    "bio": "",
-    "photo": "1YFkNRKg_sV2KYC-WiQnjPVtBTtH7965B",
-    "sports": ["badminton"],
-    "tier": 3,
-    "imagePosition": "c",
-    "price": 0,
-    "team": ""
-  },
-  {
     "name": "Smayan Chada",
     "category": "Cis Man",
     "bio": "",
     "photo": "1WsI2Bu4wzgsk566RD3oVm3g7mosIAtHr",
-    "sports": ["tableTennis", "badminton", "tennis"],
+    "sports": ["tableTennis","badminton","tennis"],
     "tier": 3,
-    "imagePosition": "c",
-    "price": 0,
-    "team": ""
-  },
-  {
-    "name": "Aryaman Rishi",
-    "category": "Cis Man",
-    "bio": "",
-    "photo": "1EMfiyk7oZZhJSMR8pKLta2P9CfXseR9H",
-    "sports": ["squash"],
-    "tier": 2,
     "imagePosition": "c",
     "price": 0,
     "team": ""

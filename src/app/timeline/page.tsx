@@ -19,9 +19,11 @@ const events = [
     imageUrl: '/ownerregistration.webp',
   },
   {
-    date: 'Soon',
+    date: '23rd - 24th January',
     title: 'Scouting',
     description: 'Teams will be scouting players to build their teams! Watch as the teams battle it out to build the best team.',
+    link: 'https://docs.google.com/spreadsheets/d/1aCaRzk2X6Tp02gVGiYeKnOZrhoEOc-Ora4sCKp6NAuk/edit',
+    linkText: 'Scouting Schedule',
     imageUrl: '/binocular.jpeg',
   },
   {

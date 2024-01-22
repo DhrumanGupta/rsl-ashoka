@@ -1,7 +1,9 @@
-import cn from '@/lib/cn';
-import { Card, CardBody, CardFooter } from '@nextui-org/card';
-import Link from 'next/link';
+'use client';
+
+import { Card } from '@nextui-org/card';
 import Teams from '@/data/teams.json';
+import React, { useState } from 'react';
+import Image from 'next/image';
 import MaxWidthContainer from '@/components/MaxWidthContainer';
 
 const teamColors: any = {
@@ -25,41 +27,49 @@ const sortedTeams = Teams.sort((a: any, b: any) => {
   else return 0;
 });
 
-function TeamCard({ team }: { team: any }) {
-  return (
-    <div className='card-container'>
-      <div className={`card aspect-w-10 aspect-h-13 w-full h-full`}>
-        {/* Front of the Card */}
-        <Card className={`${teamColors[team.name]} outline-offset-4 card-front w-full`}>
-          <div className='p-5 text-center my-auto drop-shadow-md'>
-            <p className='text-3xl font-bold w-full'>{team.name}</p>
-            <p className='font-semibold mt-4 mb-0 underline'>Manager</p>
-            <p>{team.manager}</p>
-            <p className='font-semibold mt-2 mb-0 underline'>Owners</p>
-            {team.owners.map((owner: any) => (
-              <p key={owner}>{owner}</p>
-            ))}
-          </div>
-        </Card>
+function CollapsibleComponent({ state, setState, stateKey, title, names }: { state: any; stateKey: any; setState: any; title: string; names: any }) {
+  const toggleCollapse = () => {
+    console.log(stateKey);
+    console.log(state);
+    const otherStateKey = stateKey === 'owners' ? 'players' : 'owners';
+    setState({ [otherStateKey]: false, [stateKey]: !state[stateKey] });
+  };
 
-        {/* Back of the Card */}
-        <Card className={`${teamColors[team.name]} outline-offset-4 card-back p-5 z-10 w-full h-full`}>
-          <div className='flex flex-col items-center justify-center h-full'>
-            {team.players.length > 0 ? (
-              <div>
-                <p className='text-lg font-semibold'>Players</p>
-                {team.players.map((player: any) => (
-                  <p key={player} className='text-center'>
-                    {player}
-                  </p>
-                ))}
-              </div>
-            ) : (
-              <p className='text-center'>Players will be selected after the Auction!</p>
-            )}
-          </div>
-        </Card>
+  return (
+    <div className='m-4 px-4'>
+      <div onClick={toggleCollapse} className={`flex items-center cursor-pointer select-none`}>
+        <span className={`transform transition-transform ${state[stateKey] ? 'rotate-180' : 'rotate-90'}`}>
+          <Image src={'/img/triangle.png'} alt='triangle' width={20} height={20}></Image>
+        </span>
+        <span className='font-semibold ml-2'>{title}</span>
       </div>
+      <div className={`p-2 rounded-sm m-1 text-left transition-height duration-300 ease-in-out ${state[stateKey] ? '' : 'hidden'}`}>
+        {names.length > 0 ? names.map((name: any) => <p key={name}>{name}</p>) : <p className='italic'>No {title.toLowerCase()}</p>}
+      </div>
+    </div>
+  );
+}
+
+function TeamCard({ team }: { team: any }) {
+  const [dropdownOpen, setDropdownOpen] = useState({ owners: false, players: false });
+
+  return (
+    <div className={`w-full `}>
+      <Card className={`${teamColors[team.name]} outline-offset-4 w-full min-h-96`}>
+        <div className='p-5 text-center mt-4 drop-shadow-md'>
+          <div className='relative overflow-hidden mx-auto w-2/5 aspect-1 mb-4'>
+            <Image
+              src={team.logo ? `https://lh3.googleusercontent.com/d/${team.logo}=s480` : '/img/149071.png'}
+              alt={team.name}
+              fill={true}
+              className='rounded-full object-cover'
+            />
+          </div>
+          <p className='text-3xl font-bold w-full mb-1'>{team.name}</p>
+          <CollapsibleComponent state={dropdownOpen} setState={setDropdownOpen} stateKey={'owners'} title={'Owners'} names={team.owners} />
+          <CollapsibleComponent state={dropdownOpen} setState={setDropdownOpen} stateKey={'players'} title={'Players'} names={team.players} />
+        </div>
+      </Card>
     </div>
   );
 }

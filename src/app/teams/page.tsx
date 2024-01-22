@@ -7,18 +7,18 @@ import Image from 'next/image';
 import MaxWidthContainer from '@/components/MaxWidthContainer';
 
 const teamColors: any = {
-  'Asawarpur Racketeers': 'bg-[#35C08E] outline-[#35C08E]',
-  'Chhatti Pass': 'bg-[#E4080A] outline-[#E4080A]',
-  'Club Penguin': 'bg-[#22AED1] outline-[#22AED1]',
-  'Haryana Hit Squad': 'bg-[#84171A] outline-[#84171A]',
-  'Illegal Racquets': 'bg-[#36827F] outline-[#36827F]',
-  'Incognito Mode': 'bg-gray-800 outline-gray-800',
-  'Löded Diper': 'bg-[#F16192] outline-[#F16192]',
-  'Magic Moments': 'bg-[#4169E1] outline-[#4169E1]',
-  'Pineapple Express': 'bg-[#e0c936] outline-[#e0c936]',
-  'The Three Racketeers': 'bg-[#911BAF] outline-[#911BAF]',
-  'Theka Sonipat': 'bg-[#0E7511] outline-[#0E7511]',
-  'Toofan Express': 'bg-[#FE9902] outline-[#FE9902]',
+  'Asawarpur Racketeers': 'bg-[#e0c936]/[0.4] outline-[#e0c936]',
+  'Chhatti Pass': 'bg-[#E4080A]/[0.4] outline-[#E4080A]',
+  'Club Penguin': 'bg-[#15007D]/[0.4] outline-[#15007D]',
+  'Haryana Hit Squad': 'bg-[#EAA9FF]/[0.4] outline-[#EAA9FF]',
+  'Illegal Racquets': 'bg-[#35C08E]/[0.4] outline-[#35C08E]',
+  'Incognito Mode': 'bg-[#F16192]/[0.4] outline-[#F16192]',
+  'Löded Diper': 'bg-[#FE9902]/[0.4] outline-[#FE9902]',
+  'Magic Moments': 'bg-[#98794B]/[0.4] outline-[#98794B]',
+  'Pineapple Express': 'bg-[#0E7511]/[0.4] outline-[#0E7511]',
+  'The Three Racketeers': 'bg-[#84171A]/[0.4] outline-[#84171A]',
+  'Theka Sonipat': 'bg-[#911BAF]/[0.4] outline-[#911BAF]',
+  'Toofan Express': 'bg-[#22AED1]/[0.4] outline-[#22AED1]',
 };
 
 const sortedTeams = Teams.sort((a: any, b: any) => {

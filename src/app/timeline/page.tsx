@@ -1,7 +1,7 @@
 import cn from '@/lib/cn';
 import { Card, CardBody, CardFooter } from '@nextui-org/card';
 import Image from 'next/image';
-import './styles.css';
+import Link from 'next/link';
 
 // Sample data
 const events = [
@@ -29,7 +29,8 @@ const events = [
     title: 'Auction',
     description:
       'Teams battle it out to build not only a single best team, but four best teams! Watch as the teams drain their wallets to build what is needed to win!',
-
+    link: 'https://docs.google.com/document/d/1FI8z1V3RM2jDNglKPXott7nW5CozqJIMKV-wlnKJgRk/edit',
+    linkText: 'View Rules',
     imageUrl: '/auction.jpg',
   },
   {
@@ -127,6 +128,12 @@ function EventCard({ event, i, j, today }: { event: any; i: number; today: Date;
             <CardBody className='text-center'>
               <p className='text-2xl font-bold mt-2 mb-4'>{event.title}</p>
               <p className='text-base my-auto pb-8'>{event.description}</p>
+
+              {event.link && event.linkText && (
+                <Link href={event.link} target='_blank' className='text-blue-500 underline decoration-blue-500'>
+                  {event.linkText}
+                </Link>
+              )}
             </CardBody>
           </Card>
         </div>

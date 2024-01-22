@@ -19,11 +19,9 @@ const events = [
     imageUrl: '/ownerregistration.webp',
   },
   {
-    date: '23rd - 24th January',
+    date: 'Soon',
     title: 'Scouting',
     description: 'Teams will be scouting players to build their teams! Watch as the teams battle it out to build the best team.',
-    link: 'https://docs.google.com/spreadsheets/d/1aCaRzk2X6Tp02gVGiYeKnOZrhoEOc-Ora4sCKp6NAuk/edit',
-    linkText: 'Scouting Schedule',
     imageUrl: '/binocular.jpeg',
   },
   {
@@ -36,7 +34,7 @@ const events = [
     imageUrl: '/auction.jpg',
   },
   {
-    date: '26th - 30th January',
+    date: 'Soon',
     title: 'Practice',
     description: 'Teams will be practicing to get ready for the league! Watch as the teams battle it out to build the best team.',
     imageUrl: '/practice.jpg',

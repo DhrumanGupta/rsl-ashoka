@@ -11,7 +11,7 @@
     "team": ""
   },
   {
-    "name": "Pradyuma Subhir",
+    "name": "Pradyumna Subhir",
     "category": "Cis Man",
     "bio": "doubles specialist on court\ud83d\ude0d\ud83e\udd19\ud83c\udffc\nsingles specialist off court\ud83d\ude14\ud83d\udc46\ud83c\udffc",
     "photo": "1_P90p7Xq0hSKkKFCFleFZh5RMFVS165j",
@@ -1395,5 +1395,28 @@
     "imagePosition": "c",
     "price": 0,
     "team": ""
+  },
+  {
+    "name": "Saptarishi Dhanuka",
+    "category": "Cis Man",
+    "bio": "",
+    "photo": "11kGrrsAk0I2dm54H7f50Lf2pRfYIhcZf",
+    "sports": ["badminton"],
+    "tier": 2,
+    "imagePosition": "c",
+    "price": 0,
+    "team": ""
+  },
+  {
+    "name": "Reyanshi",
+    "category": "Non Cis Man",
+    "bio": "",
+    "photo": "1h7lWdpae3hfezIz_Tn7M3PjhOpvlLWaJ",
+    "sports": ["squash", "badminton"],
+    "tier": 2,
+    "imagePosition": "b",
+    "price": 0,
+    "team": ""
   }
+  
 ]

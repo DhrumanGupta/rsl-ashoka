@@ -341,17 +341,6 @@
     "team": ""
   },
   {
-    "name": "Krutika Srivastava",
-    "category": "Non Cis Man",
-    "bio": "I'm not good at any of these sports, I just really like racquet sports. Viewer's discretion advised in buying me :D",
-    "photo": "13KT99iFZtQnVMajk2RmslujFC7rDJBvQ",
-    "sports": ["badminton", "tableTennis"],
-    "tier": 4,
-    "imagePosition": "c",
-    "price": 0,
-    "team": ""
-  },
-  {
     "name": "Yash Keshan",
     "category": "Cis Man",
     "bio": "",
@@ -466,7 +455,7 @@
     "category": "Non Cis Man",
     "bio": "Recreational player but got in the squash team last sem & participated in the tryouts for TT :)",
     "photo": "1evB9x93ZiASESCFk0jwE6ulb7lZ_fOLq",
-    "sports": ["squash", "tableTennis"],
+    "sports": ["badminton", "tableTennis"],
     "tier": 2,
     "imagePosition": "c",
     "price": 0,
@@ -710,17 +699,6 @@
     "photo": "1dF-4XFa3DbBhQ9e1tT8hd1rq9qTuWEOo",
     "sports": ["tennis"],
     "tier": 2,
-    "imagePosition": "c",
-    "price": 0,
-    "team": ""
-  },
-  {
-    "name": "Shrey Sethi",
-    "category": "Cis Man",
-    "bio": "",
-    "photo": "1Bd08HwYTm0SAuPBmHaoCnmYnXiD5sgz3",
-    "sports": ["badminton"],
-    "tier": 3,
     "imagePosition": "c",
     "price": 0,
     "team": ""
@@ -1415,6 +1393,28 @@
     "sports": ["squash", "badminton"],
     "tier": 2,
     "imagePosition": "b",
+    "price": 0,
+    "team": ""
+  },
+  {
+    "name": "Krish Avalani",
+    "category": "Cis Man",
+    "bio": "I have a backhand so unpredictable, even my opponents are flabbergasted – and I'm not even sure where it's going!",
+    "photo": "1d0qZzwHvb1kn00mLLtqBHE9f4txu9W4n",
+    "sports": ["squash", "tableTennis"],
+    "tier": 2,
+    "imagePosition": "c",
+    "price": 0,
+    "team": ""
+  },
+  {
+    "name": "Satwik Dubey",
+    "category": "Cis Man",
+    "bio": "I’ve been active in sports since the university level. I’ve played squash with some of the team members and have given them a good competition.",
+    "photo": "16WWK2bAXuTos-oVDm8DleQBhp74RiS2y",
+    "sports": ["squash", "badminton", "tennis"],
+    "tier": 4,
+    "imagePosition": "c",
     "price": 0,
     "team": ""
   }

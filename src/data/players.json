@@ -1417,6 +1417,17 @@
     "imagePosition": "c",
     "price": 0,
     "team": ""
+  },
+  {
+    "name": "Ishrit Khaneja",
+    "category": "Cis Man",
+    "bio": "Enjoy playing racquet sports but I only consider myself good in table tennis.",
+    "photo": "1mDKQzgWJBeF8NNp4HGGAcdj3jFvr_39p",
+    "sports": ["tableTennis", "badminton", "tennis"],
+    "tier": 4,
+    "imagePosition": "c",
+    "price": 0,
+    "team": ""
   }
   
 ]

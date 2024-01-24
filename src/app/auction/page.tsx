@@ -23,7 +23,7 @@ const teamColors: any = {
   "Toofan Express": "bg-[#22AED1]/[0.4] outline-[#22AED1]",
 };
 
-const INITIAL_BUDGET = 175_000_000;
+const INITIAL_BUDGET = 175;
 
 function TeamCard({
   name,
@@ -60,18 +60,20 @@ function TeamCard({
             {players.map((player) => (
               <p className="text-left font-medium" key={player.name}>
                 {player.name}{" "}
-                <span className="text-medium">(${player.price})</span>
+                <span className="text-medium">(${player.price}M)</span>
               </p>
             ))}
 
             {/* <p className="font-bold text-xl text-left  mt-4 ">Budget:</p> */}
 
-            <div className="relative w-full rounded-md bg-gold/50 h-6  mt-4 overflow-hidden">
+            <div className="relative w-full rounded-md bg-black/50 h-6  mt-4 overflow-hidden">
               <div
-                className="h-full -z-10 bg-gold absolute"
+                className="h-full -z-10 bg-black absolute"
                 style={{ width: `${(budget / INITIAL_BUDGET) * 100}%` }}
               ></div>
-              <p className="text-center text-white text font-bold">${budget}</p>
+              <p className="text-center text-white text font-bold">
+                ${budget}M
+              </p>
             </div>
           </div>
         </div>
@@ -103,16 +105,20 @@ type AuctionHistory = {
   name: string;
 }[];
 
-function AuctionHistory({ data }: { data?: AuctionHistory }) {
+function AuctionHistory({ data }: { data?: AuctionHistory | null }) {
   const [showAll, setShowAll] = useState(false);
 
   const finalData = useMemo(
-    () => (data ? (showAll ? data : data.slice(0, 5)) : undefined),
+    () => (data && showAll ? data.slice(0, 5) : data),
     [data, showAll]
   );
 
-  if (!finalData) {
+  if (finalData === undefined) {
     return <div className="text-center text-xl">Loading...</div>;
+  }
+
+  if (finalData === null) {
+    return <div className="text-left text-xl">Not started yet.</div>;
   }
 
   return (
@@ -132,7 +138,7 @@ function AuctionHistory({ data }: { data?: AuctionHistory }) {
               <tr key={player.name} className="border-b-1 border-b-white/50">
                 <td>{player.name}</td>
                 <td>{player.team}</td>
-                <td>{player.price}</td>
+                <td>{player.price}M</td>
                 {/* <td>{new Date(player.time).toLocaleString()}</td> */}
               </tr>
             ))}
@@ -150,10 +156,14 @@ function AuctionHistory({ data }: { data?: AuctionHistory }) {
 }
 
 function Page() {
-  const rawOrders = useRealtimeData<AuctionInfo>("/");
+  const rawOrders = useRealtimeData<AuctionInfo | null>("/");
 
-  const auctionInfo: AuctionHistory | undefined = useMemo(() => {
-    if (rawOrders !== null) {
+  const auctionInfo: AuctionHistory | null | undefined = useMemo(() => {
+    if (rawOrders === null) {
+      return null;
+    }
+
+    if (rawOrders !== undefined) {
       const res = Object.entries(rawOrders).map(([key, value]) => ({
         name: key,
         ...value,

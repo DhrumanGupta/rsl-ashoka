@@ -5,7 +5,7 @@ import { database } from "@/firebase/config";
 import { off, onValue, ref } from "firebase/database";
 
 function useRealtimeData<T>(path: string) {
-  const [data, setData] = useState<T | null>(null);
+  const [data, setData] = useState<T | undefined>(undefined);
   // console.log(stockData);
   useEffect(() => {
     const fetchData = async () => {

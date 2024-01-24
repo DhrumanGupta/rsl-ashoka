@@ -828,7 +828,7 @@
     "name": "Aarav Jain",
     "category": "Cis Man",
     "bio": "",
-    "photo": "1kCnPEHbc7ExtDjQm9XqqROfShVFIEEqr",
+    "photo": "1HXYHNffvNNGSl5CzUnejyr8MOEGwxvqo",
     "sports": ["tennis", "badminton", "squash"],
     "tier": 2,
     "imagePosition": "c",
@@ -902,17 +902,6 @@
     "team": ""
   },
   {
-    "name": "Himangi Parekh",
-    "category": "Non Cis Man",
-    "bio": "I\u2019m a national badminton player, and if you\u2019ve seen me on court, you\u2019ll see that I absolutely love the sport!",
-    "photo": "1Hj1E7yFLpkif9yWD65b8IQLj9jNmjrVW",
-    "sports": ["badminton"],
-    "tier": 2,
-    "imagePosition": "c",
-    "price": 0,
-    "team": ""
-  },
-  {
     "name": "Ananya agrawal",
     "category": "Non Cis Man",
     "bio": "",
@@ -931,17 +920,6 @@
     "sports": ["tennis", "badminton"],
     "tier": 3,
     "imagePosition": "b",
-    "price": 0,
-    "team": ""
-  },
-  {
-    "name": "Abhay Madaan",
-    "category": "Cis Man",
-    "bio": "I can play",
-    "photo": "1tZDDyvLOZSzRFyl3mNC-meTJ817O81Mw",
-    "sports": ["tennis", "squash", "badminton"],
-    "tier": 3,
-    "imagePosition": "c",
     "price": 0,
     "team": ""
   },

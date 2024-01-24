@@ -7,6 +7,7 @@ import { Card } from "@nextui-org/card";
 import { useState } from "react";
 import Image from "next/image";
 import Teams from "@/data/teams.json";
+import Players from "@/data/players.json";
 
 const teamColors: any = {
   "Asawarpur Racketeers": "bg-[#e0c936]/[0.4] outline-[#e0c936]",
@@ -155,6 +156,52 @@ function AuctionHistory({ data }: { data?: AuctionHistory | null }) {
   );
 }
 
+function TeamBreakDown({ data }: { data?: AuctionHistory | null }) {
+  if (data === undefined) {
+    return <div className="text-center text-xl">Loading...</div>;
+  }
+
+  if (data === null) {
+    return <div className="text-left text-xl">Not started yet.</div>;
+  }
+
+  return (
+    <div className="w-full">
+      <div className="overflow-x-auto">
+        <table className="w-full text-left text-lg">
+          <thead>
+            <tr className="border-b-2 border-gray-300">
+              <th className="font-bold">Team</th>
+              <th className="font-bold">Total Players</th>
+              <th className="font-bold">Non Cis Man Players</th>
+              {/* <th className="font-bold">Time</th> */}
+            </tr>
+          </thead>
+          <tbody>
+            {sortedTeams.map((team: any, i: any) => {
+              const players = data?.filter((x) => x.team === team.name) ?? [];
+
+              const nonCisplayers = players.filter(
+                (x) =>
+                  Players.find((y) => y.name === x.name)?.category ===
+                  "Non Cis Man"
+              );
+
+              return (
+                <tr key={team.name}>
+                  <td>{team.name}</td>
+                  <td>{players.length}</td>
+                  <td>{nonCisplayers.length}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}
+
 function Page() {
   const rawOrders = useRealtimeData<AuctionInfo | null>("/");
 
@@ -179,7 +226,7 @@ function Page() {
     <MaxWidthContainer>
       <h2 className="mb-4">Auction History</h2>
       <AuctionHistory data={auctionInfo} />
-      <h2 className="my-4">Teams</h2>
+      <h2 className="mb-4 mt-8">Teams</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto sm:w-full">
         {sortedTeams.map((team: any, i: any) => {
           const players =
@@ -198,6 +245,8 @@ function Page() {
           );
         })}
       </div>
+      <h2 className="mb-4 mt-8">Team Breakdown</h2>
+      <TeamBreakDown data={auctionInfo} />
     </MaxWidthContainer>
   );
 }

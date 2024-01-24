@@ -8,6 +8,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Teams from "@/data/teams.json";
 import Players from "@/data/players.json";
+import cn from "@/lib/cn";
 
 const teamColors: any = {
   "Asawarpur Racketeers": "bg-[#e0c936]/[0.4] outline-[#e0c936]",
@@ -60,6 +61,17 @@ function TeamCard({
             )}
             {players.map((player) => (
               <p className="text-left font-medium" key={player.name}>
+                <span
+                  className={cn(
+                    Players.find((x) => x.name === player.name)?.category ===
+                      "Non Cis Man"
+                      ? "text-white"
+                      : "text-gold",
+                    "mr-2"
+                  )}
+                >
+                  &#9679;
+                </span>
                 {player.name}{" "}
                 <span className="text-medium">(${player.price}M)</span>
               </p>

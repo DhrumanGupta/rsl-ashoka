@@ -1384,5 +1384,16 @@
     "imagePosition": "c",
     "price": 0,
     "team": ""
+  },
+  {
+    "name": "Himangi Parekh",
+    "category": "Non Cis Man",
+    "bio": "I’m a national badminton player, and if you’ve seen me on court, you’ll see that I absolutely love the sport!",
+    "photo": "1Hj1E7yFLpkif9yWD65b8IQLj9jNmjrVW",
+    "sports": ["badminton"],
+    "tier": 2,
+    "imagePosition": "b",
+    "price": 0,
+    "team": ""
   }
 ]

@@ -117,7 +117,7 @@ export default function Header() {
               //     ? "danger"
               //     : "foreground"
               // }
-              color={pathname === link.href ? "primary" : "foreground"}
+              color={pathname === link.href ? "secondary" : "foreground"}
               className="w-full my-2"
               href={link.href}
               size="lg"

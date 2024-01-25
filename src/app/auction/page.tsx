@@ -122,7 +122,7 @@ function AuctionHistory({ data }: { data?: AuctionHistory | null }) {
   const [showAll, setShowAll] = useState(false);
 
   const finalData = useMemo(
-    () => (data && showAll ? data : data.slice(0, 5)),
+    () => (data ? (!showAll ? data.slice(0, 5) : data) : data),
     [data, showAll]
   );
 

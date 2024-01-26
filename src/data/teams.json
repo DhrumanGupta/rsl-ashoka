@@ -2,19 +2,53 @@
   {
     "name": "Chhatti Pass",
     "manager": "Anushka Gupta",
-    "owners": ["Navya Tripuri", "Anushka Gautam", "Avisikta Sinha", "Ananya Joshi", "Veerika Gupta", "Anushka Gupta"],
-    "players": [],
+    "owners": [
+      "Navya Tripuri",
+      "Anushka Gautam",
+      "Avisikta Sinha",
+      "Ananya Joshi",
+      "Veerika Gupta",
+      "Anushka Gupta"
+    ],
+    "players": [
+      "Aarav Jain",
+      "Akshat Arora",
+      "Anjali Waghmare",
+      "Avyay Irde",
+      "Debadyuiti Ghosh",
+      "Shreya Mann",
+      "Shushant",
+      "Soham Dengra",
+      "Ustatt Anand",
+      "Vineet Tiwari"
+    ],
     "logo": "1hp2x_8NvHkeApepHVTt_IORzyGJoMiQF"
   },
   {
     "name": "Club Penguin",
     "manager": "Aryamaan Girish",
-    "owners": ["Sridhanya Karumanchi", "Aryamaan Girish", "Lakshya Bamal", "Jaee Ponde", "Adhiraj Singh"],
-    "players": [],
+    "owners": [
+      "Sridhanya Karumanchi",
+      "Aryamaan Girish",
+      "Lakshya Bamal",
+      "Jaee Ponde",
+      "Adhiraj Singh"
+    ],
+    "players": [
+      "Aashraya Adhikari",
+      "Agriya Yadav",
+      "Avyana Jain",
+      "Chaarvi Arora",
+      "Dev Doshi",
+      "Dhruv Achappa",
+      "Juni",
+      "Pranav Kapur",
+      "Vishnu Prakash"
+    ],
     "logo": "1RWkC8h0lDqvp2aVyiml6gVffmZPJppwz"
   },
   {
-    "name": "L\u00f6ded Diper",
+    "name": "Löded Diper",
     "manager": "Aditya Deshmukh",
     "owners": [
       "Aditya Deshmukh",
@@ -27,70 +61,216 @@
       "Sanah Arora",
       "Deepanshu Bhushan"
     ],
-    "players": [],
+    "players": [
+      "Aayan Jain",
+      "Abhinandan Gopal",
+      "Aditya Deshmukh",
+      "Ananya agrawal",
+      "Arnav Haldia",
+      "Ayush Rawat",
+      "Manan Nahar",
+      "Nandini Agrawal",
+      "Purvi Tantia",
+      "Sneha",
+      "Varun Muchhal"
+    ],
     "logo": "1ST56Nh_z76IUyOJU3YpXW4pBS3ao8_Oo"
   },
   {
     "name": "Haryana Hit Squad",
     "manager": "Myraa Ramchandani",
     "owners": ["Krishna Arora", "Myraa Ramchandani"],
-    "players": [],
+    "players": [
+      "Aditya Thapar",
+      "Amiya Kumar",
+      "Anshul Tekriwal",
+      "Bhavin Shivaa",
+      "Hrithika Theres Tom",
+      "Lavanya Maheshwari",
+      "Rajit Mundhra",
+      "Snehal Papnoi",
+      "Vaibhav Jain",
+      "Vanshika Mittal"
+    ],
     "logo": "1tFgf1riCcwvRnGBZ7HAUBKXHTTaXFTYq"
   },
   {
     "name": "Pineapple Express",
     "manager": "Shashwat Agrawal",
-    "owners": ["Shashwat Agrawal", "Nishant Kumar", "Shyamali Tewari", "Vamika Dadoo", "Samarth Jain"],
-    "players": [],
+    "owners": [
+      "Shashwat Agrawal",
+      "Nishant Kumar",
+      "Shyamali Tewari",
+      "Vamika Dadoo",
+      "Samarth Jain"
+    ],
+    "players": [
+      "Ankit Gupta",
+      "Deepika",
+      "Himangi Parekh",
+      "Mehek Anand",
+      "Naman Ananth Donti",
+      "Nikhil Mishra",
+      "Rudransh",
+      "Shantanu Iyer",
+      "Siddharth Menon",
+      "Soham Tulsyan"
+    ],
     "logo": "1ApseLXsOMNneX9718zElrCzWtzzpChg6"
   },
   {
     "name": "Asawarpur Racketeers",
     "manager": "Reya Verma",
     "owners": ["Vibha Rawat", "Asmi Goel", "Reya Verma"],
-    "players": [],
+    "players": [
+      "Aarush Saxena",
+      "Anika Urs",
+      "Arhaan Gupta",
+      "Arjun Khanna",
+      "Ishana Sureka",
+      "Pradyumna Subhir",
+      "Pranav Koka",
+      "Saanika Mohindra",
+      "Siddharth Natarajan",
+      "Smayan Chada"
+    ],
     "logo": "1MoMxcXbijiCtibjUPfNMkm958p_zGxK9"
   },
   {
     "name": "The Three Racketeers",
     "manager": "Ailiya Philips",
-    "owners": ["Ailiya Philips", "Tanisha Iyer", "Ahana Lal", "Prithvi Bapna", "Aayushee Bhat"],
-    "players": [],
+    "owners": [
+      "Ailiya Philips",
+      "Tanisha Iyer",
+      "Ahana Lal",
+      "Prithvi Bapna",
+      "Aayushee Bhat"
+    ],
+    "players": [
+      "Aadityan",
+      "Anandita Singh",
+      "Aneek Chatterjee",
+      "Ishpreet Kaur",
+      "Kahaan Shah",
+      "Keshav Agrawal",
+      "Krish Avalani",
+      "Megha Nair",
+      "Siddhant Goenka",
+      "Vibhu Singh"
+    ],
     "logo": "1NC_GobURqsPeNp_IdkjHo-o9IJgF3swJ"
   },
   {
     "name": "Illegal Racquets",
     "manager": "Shaurya Walia",
-    "owners": ["Shaurya Walia", "Aadi Menon", "Krishnam Daga", "Sushmita Gupta", "Rutuj", "Yash Keshan", "Tanay Parekh"],
-    "players": [],
+    "owners": [
+      "Shaurya Walia",
+      "Aadi Menon",
+      "Krishnam Daga",
+      "Sushmita Gupta",
+      "Rutuj",
+      "Yash Keshan",
+      "Tanay Parekh"
+    ],
+    "players": [
+      "Aditya Prakash",
+      "Arihant Mehta",
+      "Aryaman Rishi",
+      "Deepak chaurasiya",
+      "Dhan Kumar Rastogi",
+      "Ishrit Khaneja",
+      "Kusum Kumari",
+      "Manika Jindal",
+      "Quanisha Saboo",
+      "Reuben Chacko",
+      "Yash Keshan"
+    ],
     "logo": ""
   },
   {
     "name": "Theka Sonipat",
     "manager": "Shreyas Balasubramanian",
-    "owners": ["Aditii Pandey", "Tannuvi Agarwal", "Roshni Agarwal", "Vaibav Saraf", "Shreyas Balasubramanian"],
-    "players": [],
+    "owners": [
+      "Aditii Pandey",
+      "Tannuvi Agarwal",
+      "Roshni Agarwal",
+      "Vaibav Saraf",
+      "Shreyas Balasubramanian"
+    ],
+    "players": [
+      "Amit Maan",
+      "Ananda Khanna",
+      "Anurag Moyde",
+      "Devesh Bajaj",
+      "Diya Roongta",
+      "Harshit Aggarwal",
+      "Himanshi Lashkari",
+      "Kiah Mehta",
+      "Saptarishi Dhanuka",
+      "Shaarav Garg",
+      "Tanay Parekh"
+    ],
     "logo": "1Z5v5OEKi5dErh0uU7VsK1gdN3QLX3sX_"
   },
   {
     "name": "Magic Moments",
     "manager": "Shrey Sethi",
     "owners": ["Harshit Amarnani", "Faariq Aashiq Wani", "Shrey Sethi"],
-    "players": [],
+    "players": [
+      "Akshat Garg",
+      "Gokul Sundararaghavan",
+      "Isha Kanudia",
+      "Kashyap J",
+      "Manish Gupta",
+      "Manya Mishra",
+      "Nagib Mehfuz",
+      "Satwik Dubey",
+      "Umang Khandelwal",
+      "Vani Kumar",
+      "Yashveer Singh"
+    ],
     "logo": "1bqFI2O0Pu2sNqgb_SMVfNHzRJx-j6dz4"
   },
   {
     "name": "Toofan Express",
     "manager": "Saransh Goel",
     "owners": ["Saransh", "Arya", "Nisanka", "Dhruman", "Rushil", "Bhavya"],
-    "players": [],
+    "players": [
+      "Arya Shah",
+      "Avisikta Sinha",
+      "Chitrakshi Siwach",
+      "Dilshad Alam",
+      "Garvit",
+      "Harsh Jha",
+      "Nisanka Khataniar",
+      "Saima Mehta",
+      "Siddharth Chandak",
+      "Sunil Kataria"
+    ],
     "logo": "1ujKGPTugtuWihXgIOOv1FVVR-_QXZLmP"
   },
   {
     "name": "Incognito Mode",
     "manager": "Garima Upadhyay",
-    "owners": ["Malvika Choraria", "Purvi Tantia", "Garima Upadhyay", "Kashish Poddar"],
-    "players": [],
+    "owners": [
+      "Malvika Choraria",
+      "Purvi Tantia",
+      "Garima Upadhyay",
+      "Kashish Poddar"
+    ],
+    "players": [
+      "Devaki",
+      "Ishaan Shyampuria",
+      "Juhi Bhargava",
+      "Nishant Singh",
+      "Niswarth",
+      "Reyanshi",
+      "Shreenand Bhattad",
+      "Shreevats Bindal",
+      "Soumil Agarwal",
+      "Taanish Arora",
+      "Trishika Singhania"
+    ],
     "logo": "1-yW-DmlBx5d2Zl0fN1W6FSqXRu3BWRsV"
   }
 ]

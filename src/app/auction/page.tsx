@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useMemo } from "react";
-import useRealtimeData from "@/hooks/useRealtimeData";
 import MaxWidthContainer from "@/components/MaxWidthContainer";
 import { Card } from "@nextui-org/card";
 import { useState } from "react";
@@ -9,6 +8,7 @@ import Image from "next/image";
 import Teams from "@/data/teams.json";
 import Players from "@/data/players.json";
 import cn from "@/lib/cn";
+import AuctionInfo from "@/data/auction.json";
 
 const teamColors: any = {
   "Asawarpur Racketeers": "bg-[#e0c936]/[0.4] outline-[#e0c936]",
@@ -215,34 +215,15 @@ function TeamBreakDown({ data }: { data?: AuctionHistory | null }) {
 }
 
 function Page() {
-  const rawOrders = useRealtimeData<AuctionInfo | null>("/");
-
-  const auctionInfo: AuctionHistory | null | undefined = useMemo(() => {
-    if (rawOrders === null) {
-      return null;
-    }
-
-    if (rawOrders !== undefined) {
-      const res = Object.entries(rawOrders).map(([key, value]) => ({
-        name: key,
-        ...value,
-      }));
-
-      return res.sort((a, b) => b.time - a.time);
-    }
-
-    return undefined;
-  }, [rawOrders]);
-
   return (
     <MaxWidthContainer>
       <h2 className="mb-4">Auction History</h2>
-      <AuctionHistory data={auctionInfo} />
+      <AuctionHistory data={AuctionInfo} />
       <h2 className="mb-4 mt-8">Teams</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto sm:w-full">
         {sortedTeams.map((team: any, i: any) => {
           const players =
-            auctionInfo?.filter((x) => x.team === team.name) ?? [];
+            AuctionInfo?.filter((x) => x.team === team.name) ?? [];
 
           const budget =
             INITIAL_BUDGET - players.reduce((a, b) => a + b.price, 0);
@@ -258,7 +239,7 @@ function Page() {
         })}
       </div>
       <h2 className="mb-4 mt-8">Team Breakdown</h2>
-      <TeamBreakDown data={auctionInfo} />
+      <TeamBreakDown data={AuctionInfo} />
     </MaxWidthContainer>
   );
 }

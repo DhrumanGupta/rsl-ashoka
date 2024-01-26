@@ -7,19 +7,19 @@
     "sports": ["badminton", "tableTennis"],
     "tier": 4,
     "imagePosition": "t",
-    "price": 2,
-    "team": "Haryana Hit Squad"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Pradyumna Subhir",
     "category": "Cis Man",
-    "bio": "doubles specialist on court😍🤙🏼\nsingles specialist off court😔👆🏼",
+    "bio": "doubles specialist on court\ud83d\ude0d\ud83e\udd19\ud83c\udffc\nsingles specialist off court\ud83d\ude14\ud83d\udc46\ud83c\udffc",
     "photo": "1_P90p7Xq0hSKkKFCFleFZh5RMFVS165j",
     "sports": ["badminton", "squash", "tennis"],
     "tier": 2,
     "imagePosition": "r",
-    "price": 11,
-    "team": "Asawarpur Racketeers"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Shreenand Bhattad",
@@ -29,8 +29,8 @@
     "sports": ["badminton"],
     "tier": 2,
     "imagePosition": "c",
-    "price": 21,
-    "team": "Incognito Mode"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Vineet Tiwari",
@@ -40,8 +40,8 @@
     "sports": ["tableTennis", "badminton"],
     "tier": 4,
     "imagePosition": "c",
-    "price": 3,
-    "team": "Chhatti Pass"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Aadityan",
@@ -51,8 +51,8 @@
     "sports": ["badminton", "tableTennis", "tennis"],
     "tier": 4,
     "imagePosition": "b",
-    "price": 2,
-    "team": "The Three Racketeers"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Harshit Aggarwal",
@@ -62,8 +62,8 @@
     "sports": ["badminton", "squash", "tableTennis"],
     "tier": 3,
     "imagePosition": "t",
-    "price": 4,
-    "team": "Theka Sonipat"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Keshav Agrawal",
@@ -73,8 +73,8 @@
     "sports": ["badminton", "squash", "tableTennis"],
     "tier": 2,
     "imagePosition": "t",
-    "price": 11,
-    "team": "The Three Racketeers"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Manika Jindal",
@@ -84,8 +84,8 @@
     "sports": ["badminton"],
     "tier": 1,
     "imagePosition": "c",
-    "price": 33,
-    "team": "Illegal Racquets"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Kusum Kumari",
@@ -95,8 +95,8 @@
     "sports": ["badminton", "squash", "tableTennis"],
     "tier": 3,
     "imagePosition": "t",
-    "price": 4,
-    "team": "Illegal Racquets"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Ustatt Anand",
@@ -106,30 +106,30 @@
     "sports": ["badminton", "tableTennis"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 4,
-    "team": "Chhatti Pass"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Vibhu Singh",
     "category": "Cis Man",
-    "bio": "Good all round player I can play any of the four sports and. Choose me and you won’t regret it ;)",
+    "bio": "Good all round player I can play any of the four sports and. Choose me and you won\u2019t regret it ;)",
     "photo": "1vniuD-IpCySsZRCIgO3YHc0_T-nIr79X",
     "sports": ["tennis", "tableTennis", "squash"],
     "tier": 2,
     "imagePosition": "t",
-    "price": 25,
-    "team": "The Three Racketeers"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Gokul Sundararaghavan",
     "category": "Cis Man",
-    "bio": "👍👍👍",
+    "bio": "\ud83d\udc4d\ud83d\udc4d\ud83d\udc4d",
     "photo": "1DimV1sLdF5RHvZjcGoy9RIW8yd2VRaYu",
     "sports": ["badminton", "tableTennis", "tennis"],
     "tier": 1,
     "imagePosition": "t",
-    "price": 51,
-    "team": "Magic Moments"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Nisanka Khataniar",
@@ -139,19 +139,19 @@
     "sports": ["badminton", "tennis", "tableTennis"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 4,
-    "team": "Toofan Express"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Shreevats Bindal",
     "category": "Cis Man",
-    "bio": "I have been playing Squash for over a year now and have played many matches in my academy  and a few in Ashoka as well. I am not only competitive but someone who plays till the end and doesn’t give up easily. I am sure that I will be a great addition to your team and together we’ll be able to cross the victory line in the tournament.",
+    "bio": "I have been playing Squash for over a year now and have played many matches in my academy  and a few in Ashoka as well. I am not only competitive but someone who plays till the end and doesn\u2019t give up easily. I am sure that I will be a great addition to your team and together we\u2019ll be able to cross the victory line in the tournament.",
     "photo": "1e0H64V6Bv84pjOLC-0PvLkxsmybi8UEy",
     "sports": ["squash"],
     "tier": 3,
     "imagePosition": "t",
-    "price": 4,
-    "team": "Incognito Mode"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Arya Shah",
@@ -161,8 +161,8 @@
     "sports": ["tennis", "tableTennis", "squash"],
     "tier": 1,
     "imagePosition": "t",
-    "price": 52,
-    "team": "Toofan Express"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Manya Mishra",
@@ -172,8 +172,8 @@
     "sports": ["badminton", "tableTennis", "tennis"],
     "tier": 2,
     "imagePosition": "t",
-    "price": 20,
-    "team": "Magic Moments"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Deepak chaurasiya",
@@ -183,8 +183,8 @@
     "sports": ["badminton", "tableTennis", "squash"],
     "tier": 1,
     "imagePosition": "l",
-    "price": 55,
-    "team": "Illegal Racquets"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Shushant",
@@ -194,8 +194,8 @@
     "sports": ["badminton", "squash", "tableTennis"],
     "tier": 1,
     "imagePosition": "c",
-    "price": 51,
-    "team": "Chhatti Pass"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Avisikta Sinha",
@@ -205,19 +205,19 @@
     "sports": ["tableTennis"],
     "tier": 1,
     "imagePosition": "c",
-    "price": 35,
-    "team": "Toofan Express"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Juni",
     "category": "Non Cis Man",
-    "bio": "Firstly please call me Juni\n\nHere's why you should pick me:\n1. Because no one else will\n2. Because I'm very short and can't reach the net, but I try, and trying is what counts.\n3. I play table tennis a lot for fun ( I'm a fun person to be around)\n4. I won't claim I'm amazing at tt, but I kinda want to play, so take me maybe?\n5. My serve is fine, my forehand is fine, my backhand is also fine, basically everything's fine. \n6. I'm a first year and idk what I'm supposed to write here, so pity me, take me.\n7. I play football for the team if that counts. I know it doesn't but still this is my chance to flex 💪\n8. I didn't want an 8th point because 7 is a nice number, but alas. I might be able to make the ball cry with my game which is as good as my pun game. Okay thankyou.",
+    "bio": "Firstly please call me Juni\n\nHere's why you should pick me:\n1. Because no one else will\n2. Because I'm very short and can't reach the net, but I try, and trying is what counts.\n3. I play table tennis a lot for fun ( I'm a fun person to be around)\n4. I won't claim I'm amazing at tt, but I kinda want to play, so take me maybe?\n5. My serve is fine, my forehand is fine, my backhand is also fine, basically everything's fine. \n6. I'm a first year and idk what I'm supposed to write here, so pity me, take me.\n7. I play football for the team if that counts. I know it doesn't but still this is my chance to flex \ud83d\udcaa\n8. I didn't want an 8th point because 7 is a nice number, but alas. I might be able to make the ball cry with my game which is as good as my pun game. Okay thankyou.",
     "photo": "1z_43p3jxyUnf6IKKLmZ8_GZRMnpeAXr1",
     "sports": ["tableTennis"],
     "tier": 3,
     "imagePosition": "t",
-    "price": 9,
-    "team": "Club Penguin"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Shantanu Iyer",
@@ -227,8 +227,8 @@
     "sports": ["squash", "badminton", "tennis"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 4,
-    "team": "Pineapple Express"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Anurag Moyde",
@@ -238,8 +238,8 @@
     "sports": ["squash", "badminton"],
     "tier": 1,
     "imagePosition": "c",
-    "price": 52,
-    "team": "Theka Sonipat"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Manan Nahar",
@@ -249,8 +249,8 @@
     "sports": ["tableTennis", "squash", "badminton"],
     "tier": 1,
     "imagePosition": "r",
-    "price": 40,
-    "team": "Löded Diper"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Arjun Khanna",
@@ -260,8 +260,8 @@
     "sports": ["badminton", "tableTennis", "tennis"],
     "tier": 4,
     "imagePosition": "c",
-    "price": 3,
-    "team": "Asawarpur Racketeers"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Nandini Agrawal",
@@ -271,30 +271,30 @@
     "sports": ["tennis", "badminton"],
     "tier": 3,
     "imagePosition": "t",
-    "price": 12,
-    "team": "Löded Diper"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Vani Kumar",
     "category": "Non Cis Man",
-    "bio": "Please pick me 🙏 so that I have atleast one thing to check off my \"stuff to do that I didn't in my UG\" list",
+    "bio": "Please pick me \ud83d\ude4f so that I have atleast one thing to check off my \"stuff to do that I didn't in my UG\" list",
     "photo": "1I4axEPVPeSu4Bzsb3mm2eReFdAM5sRPA",
     "sports": ["badminton", "tableTennis"],
     "tier": 4,
     "imagePosition": "c",
-    "price": 12,
-    "team": "Magic Moments"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Taanish Arora",
     "category": "Cis Man",
-    "bio": "Badminton — CISCE States 2019 Third Place Finish (represented UK). Qualified for Nationals, 2019. Competitive training from 2017 to 2021.\n\nTable Tennis — Played for 3 years. Qualified for the Uni Team.",
+    "bio": "Badminton \u2014 CISCE States 2019 Third Place Finish (represented UK). Qualified for Nationals, 2019. Competitive training from 2017 to 2021.\n\nTable Tennis \u2014 Played for 3 years. Qualified for the Uni Team.",
     "photo": "1jZBvx8GiZyq4neFHUrpb8aRzhyrTIgvs",
     "sports": ["badminton", "tableTennis"],
     "tier": 2,
     "imagePosition": "c",
-    "price": 14,
-    "team": "Incognito Mode"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Harsh Jha",
@@ -304,8 +304,8 @@
     "sports": ["badminton", "squash", "tableTennis"],
     "tier": 4,
     "imagePosition": "c",
-    "price": 4,
-    "team": "Toofan Express"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Kashyap J",
@@ -315,8 +315,8 @@
     "sports": ["tableTennis", "badminton"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 4,
-    "team": "Magic Moments"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Aditya Prakash",
@@ -326,8 +326,8 @@
     "sports": ["tennis", "badminton"],
     "tier": 2,
     "imagePosition": "c",
-    "price": 16,
-    "team": "Illegal Racquets"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Vanshika Mittal",
@@ -337,8 +337,8 @@
     "sports": ["badminton", "tableTennis", "squash"],
     "tier": 2,
     "imagePosition": "c",
-    "price": 11,
-    "team": "Haryana Hit Squad"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Yash Keshan",
@@ -348,8 +348,8 @@
     "sports": ["tableTennis", "squash", "badminton"],
     "tier": 1,
     "imagePosition": "c",
-    "price": 45,
-    "team": "Illegal Racquets"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Aditya Thapar",
@@ -359,8 +359,8 @@
     "sports": ["badminton", "tableTennis"],
     "tier": 2,
     "imagePosition": "t",
-    "price": 10,
-    "team": "Haryana Hit Squad"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Garvit",
@@ -370,8 +370,8 @@
     "sports": ["badminton", "tableTennis", "squash"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 1,
-    "team": "Toofan Express"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Nishant Singh",
@@ -381,8 +381,8 @@
     "sports": ["badminton", "squash", "tennis"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 1,
-    "team": "Incognito Mode"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Ayush Rawat",
@@ -392,8 +392,8 @@
     "sports": ["badminton"],
     "tier": 4,
     "imagePosition": "c",
-    "price": 1,
-    "team": "Löded Diper"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Aayan Jain",
@@ -403,8 +403,8 @@
     "sports": ["tennis", "badminton", "squash"],
     "tier": 1,
     "imagePosition": "l",
-    "price": 81,
-    "team": "Löded Diper"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Yashveer Singh",
@@ -414,8 +414,8 @@
     "sports": ["tableTennis", "badminton", "tennis"],
     "tier": 3,
     "imagePosition": "r",
-    "price": 8,
-    "team": "Magic Moments"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Varun Muchhal",
@@ -425,8 +425,8 @@
     "sports": ["squash", "badminton", "tableTennis"],
     "tier": 2,
     "imagePosition": "t",
-    "price": 7,
-    "team": "Löded Diper"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Vaibhav Jain",
@@ -436,8 +436,8 @@
     "sports": ["tennis", "badminton", "tableTennis"],
     "tier": 2,
     "imagePosition": "t",
-    "price": 20,
-    "team": "Haryana Hit Squad"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Ishaan Shyampuria",
@@ -447,8 +447,8 @@
     "sports": ["tennis", "tableTennis", "badminton"],
     "tier": 2,
     "imagePosition": "c",
-    "price": 23,
-    "team": "Incognito Mode"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Lavanya Maheshwari",
@@ -458,8 +458,8 @@
     "sports": ["badminton", "tableTennis"],
     "tier": 2,
     "imagePosition": "c",
-    "price": 15,
-    "team": "Haryana Hit Squad"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Siddharth Menon",
@@ -469,8 +469,8 @@
     "sports": ["tennis", "squash"],
     "tier": 2,
     "imagePosition": "c",
-    "price": 31,
-    "team": "Pineapple Express"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Juhi Bhargava",
@@ -480,8 +480,8 @@
     "sports": ["tableTennis"],
     "tier": 1,
     "imagePosition": "c",
-    "price": 48,
-    "team": "Incognito Mode"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Dhan Kumar Rastogi",
@@ -491,8 +491,8 @@
     "sports": ["badminton"],
     "tier": 3,
     "imagePosition": "b",
-    "price": 1,
-    "team": "Illegal Racquets"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Anjali Waghmare",
@@ -502,8 +502,8 @@
     "sports": ["badminton"],
     "tier": 3,
     "imagePosition": "t",
-    "price": 4,
-    "team": "Chhatti Pass"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Shaarav Garg",
@@ -513,8 +513,8 @@
     "sports": ["tableTennis", "squash"],
     "tier": 1,
     "imagePosition": "c",
-    "price": 24,
-    "team": "Theka Sonipat"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Anika Urs",
@@ -524,8 +524,8 @@
     "sports": ["tennis", "tableTennis", "badminton"],
     "tier": 1,
     "imagePosition": "c",
-    "price": 41,
-    "team": "Asawarpur Racketeers"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Arnav Haldia",
@@ -535,8 +535,8 @@
     "sports": ["tableTennis", "badminton", "tennis"],
     "tier": 4,
     "imagePosition": "c",
-    "price": 1,
-    "team": "Löded Diper"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Arihant Mehta",
@@ -546,19 +546,19 @@
     "sports": ["tableTennis", "badminton", "tennis"],
     "tier": 4,
     "imagePosition": "c",
-    "price": 1,
-    "team": "Illegal Racquets"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Bhavin Shivaa",
     "category": "Cis Man",
-    "bio": "AUMFC player - Football Batch Championship 23 Winner. Half-decent at table tennis and badminton. Extremely proficient at activities involving hands 👉👈",
+    "bio": "AUMFC player - Football Batch Championship 23 Winner. Half-decent at table tennis and badminton. Extremely proficient at activities involving hands \ud83d\udc49\ud83d\udc48",
     "photo": "1HxdeKSpZs4cYYJAK-lwgFTBzM0UjC7ce",
     "sports": ["tableTennis", "badminton", "tennis"],
     "tier": 4,
     "imagePosition": "c",
-    "price": 3,
-    "team": "Haryana Hit Squad"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Reuben Chacko",
@@ -568,8 +568,8 @@
     "sports": ["badminton", "tableTennis", "tennis"],
     "tier": 4,
     "imagePosition": "c",
-    "price": 1,
-    "team": "Illegal Racquets"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Rajit Mundhra",
@@ -579,8 +579,8 @@
     "sports": ["tableTennis", "badminton"],
     "tier": 1,
     "imagePosition": "c",
-    "price": 26,
-    "team": "Haryana Hit Squad"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Amit Maan",
@@ -590,8 +590,8 @@
     "sports": ["badminton"],
     "tier": 2,
     "imagePosition": "t",
-    "price": 14,
-    "team": "Theka Sonipat"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Dhruv Achappa",
@@ -601,8 +601,8 @@
     "sports": ["tennis", "tableTennis", "badminton"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 4,
-    "team": "Club Penguin"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Debadyuiti Ghosh",
@@ -612,8 +612,8 @@
     "sports": ["badminton"],
     "tier": 4,
     "imagePosition": "t",
-    "price": 1,
-    "team": "Chhatti Pass"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Umang Khandelwal",
@@ -623,8 +623,8 @@
     "sports": ["tableTennis", "badminton", "squash"],
     "tier": 1,
     "imagePosition": "c",
-    "price": 27,
-    "team": "Magic Moments"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Naman Ananth Donti",
@@ -634,8 +634,8 @@
     "sports": ["badminton"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 3,
-    "team": "Pineapple Express"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Aneek Chatterjee",
@@ -645,8 +645,8 @@
     "sports": ["badminton", "tennis"],
     "tier": 4,
     "imagePosition": "b",
-    "price": 3,
-    "team": "The Three Racketeers"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Trishika Singhania",
@@ -656,8 +656,8 @@
     "sports": ["badminton"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 5,
-    "team": "Incognito Mode"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Tanay Parekh",
@@ -667,8 +667,8 @@
     "sports": ["tableTennis"],
     "tier": 2,
     "imagePosition": "t",
-    "price": 10,
-    "team": "Theka Sonipat"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Soham Tulsyan",
@@ -678,8 +678,8 @@
     "sports": ["badminton"],
     "tier": 4,
     "imagePosition": "c",
-    "price": 2,
-    "team": "Pineapple Express"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Megha Nair",
@@ -689,8 +689,8 @@
     "sports": ["badminton", "tableTennis", "tennis"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 12,
-    "team": "The Three Racketeers"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Saima Mehta",
@@ -700,8 +700,8 @@
     "sports": ["tennis"],
     "tier": 2,
     "imagePosition": "c",
-    "price": 28,
-    "team": "Toofan Express"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Purvi Tantia",
@@ -711,8 +711,8 @@
     "sports": ["badminton", "squash", "tableTennis"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 8,
-    "team": "Löded Diper"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Isha Kanudia",
@@ -722,8 +722,19 @@
     "sports": ["tennis", "tableTennis", "badminton"],
     "tier": 2,
     "imagePosition": "c",
-    "price": 23,
-    "team": "Magic Moments"
+    "price": 0,
+    "team": ""
+  },
+  {
+    "name": "Shivom Srivastava",
+    "category": "Cis Man",
+    "bio": "A few facts:\n1. I've been playing badminton since the past 5 years and I have played inter school tournaments till the 10th grade\n2. I have been playing table tennis for 7 years(thala for a reason) and have again played and won multiple inter school tournaments.\n3. I'm decently good at squash and have been playing since I've joined ashoka.",
+    "photo": "154Dwqzkqj1etPgXrhe12pR7N74t-4dvT",
+    "sports": ["badminton", "tableTennis", "squash"],
+    "tier": 3,
+    "imagePosition": "t",
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Rudransh",
@@ -733,8 +744,8 @@
     "sports": ["tennis"],
     "tier": 4,
     "imagePosition": "c",
-    "price": 2,
-    "team": "Pineapple Express"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Chaarvi Arora",
@@ -744,8 +755,8 @@
     "sports": ["badminton"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 4,
-    "team": "Club Penguin"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Mehek Anand",
@@ -755,8 +766,8 @@
     "sports": ["squash", "badminton", "tableTennis"],
     "tier": 1,
     "imagePosition": "t",
-    "price": 58,
-    "team": "Pineapple Express"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Shreya Mann",
@@ -766,8 +777,8 @@
     "sports": ["badminton", "squash"],
     "tier": 4,
     "imagePosition": "c",
-    "price": 10,
-    "team": "Chhatti Pass"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Vishnu Prakash",
@@ -777,8 +788,8 @@
     "sports": ["tableTennis"],
     "tier": 2,
     "imagePosition": "c",
-    "price": 10,
-    "team": "Club Penguin"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Siddhant Goenka",
@@ -788,19 +799,19 @@
     "sports": ["tableTennis", "badminton"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 6,
-    "team": "The Three Racketeers"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Pranav Kapur",
     "category": "Cis Man",
-    "bio": "Hey there, I'm Pranav, your go-to athlete for a good laugh on the squash court. I may be new to the game, but trust me, my swings are nothing short of avant-garde. When it comes to table tennis and badminton, well, let's just say my skills are an acquired taste – like fine art, you have to appreciate the uniqueness.\n\nIn squash, I've mastered the art of hitting the ball everywhere except where it's supposed to go. Table tennis and badminton are my playgrounds for creating gravity-defying shots that even I can't predict. If you're looking for a wildcard with a knack for turning every match into a comedy show, bid on me. I may not win, but I guarantee you'll be thoroughly entertained!",
+    "bio": "Hey there, I'm Pranav, your go-to athlete for a good laugh on the squash court. I may be new to the game, but trust me, my swings are nothing short of avant-garde. When it comes to table tennis and badminton, well, let's just say my skills are an acquired taste \u2013 like fine art, you have to appreciate the uniqueness.\n\nIn squash, I've mastered the art of hitting the ball everywhere except where it's supposed to go. Table tennis and badminton are my playgrounds for creating gravity-defying shots that even I can't predict. If you're looking for a wildcard with a knack for turning every match into a comedy show, bid on me. I may not win, but I guarantee you'll be thoroughly entertained!",
     "photo": "1pMdX1KaOiV0QfLb8_di6y-jXmER_CRHd",
     "sports": ["squash", "tableTennis", "badminton"],
     "tier": 2,
     "imagePosition": "c",
-    "price": 16,
-    "team": "Club Penguin"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Aashraya Adhikari",
@@ -810,8 +821,8 @@
     "sports": ["badminton", "tableTennis", "squash"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 3,
-    "team": "Club Penguin"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Aarav Jain",
@@ -821,8 +832,8 @@
     "sports": ["tennis", "badminton", "squash"],
     "tier": 2,
     "imagePosition": "c",
-    "price": 33,
-    "team": "Chhatti Pass"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Kahaan Shah",
@@ -832,8 +843,8 @@
     "sports": ["tableTennis", "squash", "badminton"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 4,
-    "team": "The Three Racketeers"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Pranav Koka",
@@ -843,8 +854,8 @@
     "sports": ["tennis", "badminton", "tableTennis"],
     "tier": 1,
     "imagePosition": "c",
-    "price": 37,
-    "team": "Asawarpur Racketeers"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Abhinandan Gopal",
@@ -854,8 +865,8 @@
     "sports": ["badminton"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 4,
-    "team": "Löded Diper"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Amiya Kumar",
@@ -865,8 +876,8 @@
     "sports": ["badminton", "tableTennis", "tennis"],
     "tier": 4,
     "imagePosition": "c",
-    "price": 10,
-    "team": "Haryana Hit Squad"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Dilshad Alam",
@@ -876,8 +887,8 @@
     "sports": ["tableTennis", "badminton"],
     "tier": 1,
     "imagePosition": "b",
-    "price": 25,
-    "team": "Toofan Express"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Snehal Papnoi",
@@ -887,8 +898,8 @@
     "sports": ["squash", "badminton", "tennis"],
     "tier": 1,
     "imagePosition": "c",
-    "price": 50,
-    "team": "Haryana Hit Squad"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Ananya agrawal",
@@ -898,8 +909,8 @@
     "sports": ["badminton", "squash", "tableTennis"],
     "tier": 4,
     "imagePosition": "c",
-    "price": 13,
-    "team": "Löded Diper"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Diya Roongta",
@@ -909,8 +920,8 @@
     "sports": ["tennis", "badminton"],
     "tier": 3,
     "imagePosition": "b",
-    "price": 13,
-    "team": "Theka Sonipat"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Ishana Sureka",
@@ -920,8 +931,8 @@
     "sports": ["badminton"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 4,
-    "team": "Asawarpur Racketeers"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Deepika",
@@ -931,8 +942,8 @@
     "sports": ["tennis"],
     "tier": 1,
     "imagePosition": "c",
-    "price": 45,
-    "team": "Pineapple Express"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Hrithika Theres Tom",
@@ -942,8 +953,8 @@
     "sports": ["tableTennis"],
     "tier": 1,
     "imagePosition": "c",
-    "price": 28,
-    "team": "Haryana Hit Squad"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Agriya Yadav",
@@ -953,19 +964,19 @@
     "sports": ["tennis", "tableTennis", "badminton"],
     "tier": 1,
     "imagePosition": "t",
-    "price": 76,
-    "team": "Club Penguin"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Devaki",
     "category": "Non Cis Man",
-    "bio": "🐮 moo !",
+    "bio": "\ud83d\udc2e moo !",
     "photo": "1DIizDgrPKcqDEUHIYvH_Ml42ddUXlPND",
     "sports": ["badminton", "tableTennis", "squash"],
     "tier": 2,
     "imagePosition": "c",
-    "price": 16,
-    "team": "Incognito Mode"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Anandita Singh",
@@ -975,8 +986,8 @@
     "sports": ["badminton"],
     "tier": 1,
     "imagePosition": "c",
-    "price": 45,
-    "team": "The Three Racketeers"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Ankit Gupta",
@@ -986,8 +997,8 @@
     "sports": ["squash", "badminton", "tableTennis"],
     "tier": 4,
     "imagePosition": "c",
-    "price": 2,
-    "team": "Pineapple Express"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Aarush Saxena",
@@ -997,8 +1008,8 @@
     "sports": ["squash", "tableTennis"],
     "tier": 1,
     "imagePosition": "c",
-    "price": 27,
-    "team": "Asawarpur Racketeers"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Devesh Bajaj",
@@ -1008,8 +1019,8 @@
     "sports": ["tennis", "badminton", "tableTennis"],
     "tier": 3,
     "imagePosition": "t",
-    "price": 6,
-    "team": "Theka Sonipat"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Kiah Mehta",
@@ -1019,8 +1030,8 @@
     "sports": ["badminton", "tennis"],
     "tier": 2,
     "imagePosition": "c",
-    "price": 9,
-    "team": "Theka Sonipat"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Avyana Jain",
@@ -1030,8 +1041,8 @@
     "sports": ["squash", "badminton"],
     "tier": 1,
     "imagePosition": "c",
-    "price": 35,
-    "team": "Club Penguin"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Chitrakshi Siwach",
@@ -1041,8 +1052,8 @@
     "sports": ["badminton", "squash", "tableTennis"],
     "tier": 2,
     "imagePosition": "c",
-    "price": 16,
-    "team": "Toofan Express"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Ishpreet Kaur",
@@ -1052,8 +1063,8 @@
     "sports": ["tennis", "squash", "badminton"],
     "tier": 1,
     "imagePosition": "t",
-    "price": 45,
-    "team": "The Three Racketeers"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Saanika Mohindra",
@@ -1063,8 +1074,8 @@
     "sports": ["badminton"],
     "tier": 1,
     "imagePosition": "c",
-    "price": 29,
-    "team": "Asawarpur Racketeers"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Nikhil Mishra",
@@ -1074,8 +1085,8 @@
     "sports": ["tableTennis", "squash", "badminton"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 11,
-    "team": "Pineapple Express"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Niswarth",
@@ -1085,8 +1096,19 @@
     "sports": ["tableTennis"],
     "tier": 2,
     "imagePosition": "t",
-    "price": 10,
-    "team": "Incognito Mode"
+    "price": 0,
+    "team": ""
+  },
+  {
+    "name": "Shruti Kraleti",
+    "category": "Non Cis Man",
+    "bio": "",
+    "photo": "1tgua_U98La_16bWFfDP7pOCE51Me8e5d",
+    "sports": ["badminton", "tableTennis", "squash"],
+    "tier": 2,
+    "imagePosition": "c",
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Sneha",
@@ -1096,8 +1118,8 @@
     "sports": ["badminton"],
     "tier": 3,
     "imagePosition": "t",
-    "price": 4,
-    "team": "Löded Diper"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Akshat Garg",
@@ -1107,8 +1129,8 @@
     "sports": ["squash", "tableTennis", "badminton"],
     "tier": 2,
     "imagePosition": "t",
-    "price": 17,
-    "team": "Magic Moments"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Himanshi Lashkari",
@@ -1118,8 +1140,8 @@
     "sports": ["badminton", "tableTennis"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 4,
-    "team": "Theka Sonipat"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Akshat Arora",
@@ -1129,8 +1151,8 @@
     "sports": ["tableTennis", "badminton", "squash"],
     "tier": 4,
     "imagePosition": "t",
-    "price": 2,
-    "team": "Chhatti Pass"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Soumil Agarwal",
@@ -1140,8 +1162,8 @@
     "sports": ["tableTennis", "squash", "badminton"],
     "tier": 2,
     "imagePosition": "c",
-    "price": 15,
-    "team": "Incognito Mode"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Dev Doshi",
@@ -1151,13 +1173,13 @@
     "sports": ["badminton"],
     "tier": 2,
     "imagePosition": "t",
-    "price": 11,
-    "team": "Club Penguin"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Parth Mahajan",
     "category": "Cis Man",
-    "bio": "Namaste, my name is Parth Mahajan, UG25 - EcoFin. I’ve played a little bit of badminton and done some training while in school. I’m a little bit rusty but I can hold my ground on the court. Keen to put in the work with the team and have some fun while we’re at it.",
+    "bio": "Namaste, my name is Parth Mahajan, UG25 - EcoFin. I\u2019ve played a little bit of badminton and done some training while in school. I\u2019m a little bit rusty but I can hold my ground on the court. Keen to put in the work with the team and have some fun while we\u2019re at it.",
     "photo": "1PEL_UZL4wm0moJEuWmsh7HMcZx0heMF8",
     "sports": ["badminton"],
     "tier": 3,
@@ -1173,8 +1195,8 @@
     "sports": ["tableTennis", "squash", "badminton"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 4,
-    "team": "Toofan Express"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Ananda Khanna",
@@ -1184,8 +1206,8 @@
     "sports": ["squash", "tableTennis"],
     "tier": 2,
     "imagePosition": "c",
-    "price": 19,
-    "team": "Theka Sonipat"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Siddharth Natarajan",
@@ -1195,8 +1217,8 @@
     "sports": ["tableTennis"],
     "tier": 2,
     "imagePosition": "t",
-    "price": 16,
-    "team": "Asawarpur Racketeers"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Aditya Deshmukh",
@@ -1206,8 +1228,8 @@
     "sports": ["badminton", "tableTennis", "squash"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 4,
-    "team": "Löded Diper"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Quanisha Saboo",
@@ -1217,8 +1239,8 @@
     "sports": ["badminton", "tableTennis"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 3,
-    "team": "Illegal Racquets"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Soham Dengra",
@@ -1228,8 +1250,8 @@
     "sports": ["tableTennis", "badminton", "squash"],
     "tier": 1,
     "imagePosition": "t",
-    "price": 63,
-    "team": "Chhatti Pass"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Avyay Irde",
@@ -1239,8 +1261,8 @@
     "sports": ["badminton", "squash", "tableTennis"],
     "tier": 4,
     "imagePosition": "c",
-    "price": 4,
-    "team": "Chhatti Pass"
+    "price": 1,
+    "team": ""
   },
   {
     "name": "Arhaan Gupta",
@@ -1250,8 +1272,8 @@
     "sports": ["tennis", "tableTennis", "badminton"],
     "tier": 4,
     "imagePosition": "c",
-    "price": 3,
-    "team": "Asawarpur Racketeers"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Manish Gupta",
@@ -1261,8 +1283,8 @@
     "sports": ["badminton"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 4,
-    "team": "Magic Moments"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Sunil Kataria",
@@ -1272,8 +1294,8 @@
     "sports": ["badminton"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 4,
-    "team": "Toofan Express"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Nagib Mehfuz",
@@ -1283,8 +1305,8 @@
     "sports": ["badminton"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 3,
-    "team": "Magic Moments"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Smayan Chada",
@@ -1294,8 +1316,8 @@
     "sports": ["tableTennis", "badminton", "tennis"],
     "tier": 3,
     "imagePosition": "c",
-    "price": 4,
-    "team": "Asawarpur Racketeers"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Aryaman Rishi",
@@ -1305,8 +1327,8 @@
     "sports": ["squash"],
     "tier": 2,
     "imagePosition": "c",
-    "price": 15,
-    "team": "Illegal Racquets"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Saptarishi Dhanuka",
@@ -1316,8 +1338,8 @@
     "sports": ["badminton"],
     "tier": 2,
     "imagePosition": "c",
-    "price": 12,
-    "team": "Theka Sonipat"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Reyanshi",
@@ -1327,8 +1349,8 @@
     "sports": ["squash", "badminton"],
     "tier": 2,
     "imagePosition": "b",
-    "price": 15,
-    "team": "Incognito Mode"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Krish Avalani",
@@ -1338,8 +1360,8 @@
     "sports": ["squash", "tableTennis"],
     "tier": 2,
     "imagePosition": "c",
-    "price": 11,
-    "team": "The Three Racketeers"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Satwik Dubey",
@@ -1349,8 +1371,8 @@
     "sports": ["squash", "badminton", "tennis"],
     "tier": 4,
     "imagePosition": "c",
-    "price": 5,
-    "team": "Magic Moments"
+    "price": 0,
+    "team": ""
   },
   {
     "name": "Ishrit Khaneja",
@@ -1360,18 +1382,7 @@
     "sports": ["tableTennis", "badminton", "tennis"],
     "tier": 4,
     "imagePosition": "c",
-    "price": 1,
-    "team": "Illegal Racquets"
-  },
-  {
-    "name": "Himangi Parekh",
-    "category": "Non Cis Man",
-    "bio": "I’m a national badminton player, and if you’ve seen me on court, you’ll see that I absolutely love the sport!",
-    "photo": "1Hj1E7yFLpkif9yWD65b8IQLj9jNmjrVW",
-    "sports": ["badminton"],
-    "tier": 2,
-    "imagePosition": "b",
-    "price": 17,
-    "team": "Pineapple Express"
+    "price": 0,
+    "team": ""
   }
 ]

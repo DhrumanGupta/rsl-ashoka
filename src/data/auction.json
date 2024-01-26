@@ -1,0 +1,736 @@
+[
+  {
+    "name": "Aadityan",
+    "price": 2,
+    "team": "The Three Racketeers",
+    "time": 1706200518961
+  },
+  {
+    "name": "Aarav Jain",
+    "price": 33,
+    "team": "Chhatti Pass",
+    "time": 1706196098218
+  },
+  {
+    "name": "Aarush Saxena",
+    "price": 27,
+    "team": "Asawarpur Racketeers",
+    "time": 1706194515147
+  },
+  {
+    "name": "Aashraya Adhikari",
+    "price": 3,
+    "team": "Club Penguin",
+    "time": 1706201906875
+  },
+  {
+    "name": "Aayan Jain",
+    "price": 81,
+    "team": "Löded Diper",
+    "time": 1706194250843
+  },
+  {
+    "name": "Abhinandan Gopal",
+    "price": 4,
+    "team": "Löded Diper",
+    "time": 1706199787423
+  },
+  {
+    "name": "Aditya Deshmukh",
+    "price": 4,
+    "team": "Löded Diper",
+    "time": 1706200011171
+  },
+  {
+    "name": "Aditya Prakash",
+    "price": 16,
+    "team": "Illegal Racquets",
+    "time": 1706197180518
+  },
+  {
+    "name": "Aditya Thapar",
+    "price": 10,
+    "team": "Haryana Hit Squad",
+    "time": 1706197486962
+  },
+  {
+    "name": "Agriya Yadav",
+    "price": 76,
+    "team": "Club Penguin",
+    "time": 1706192001222
+  },
+  {
+    "name": "Akshat Arora",
+    "price": 2,
+    "team": "Chhatti Pass",
+    "time": 1706200213409
+  },
+  {
+    "name": "Akshat Garg",
+    "price": 17,
+    "team": "Magic Moments",
+    "time": 1706195297665
+  },
+  {
+    "name": "Amit Maan",
+    "price": 14,
+    "team": "Theka Sonipat",
+    "time": 1706196891083
+  },
+  {
+    "name": "Amiya Kumar",
+    "price": 10,
+    "team": "Haryana Hit Squad",
+    "time": 1706200177960
+  },
+  {
+    "name": "Ananda Khanna",
+    "price": 19,
+    "team": "Theka Sonipat",
+    "time": 1706195959037
+  },
+  {
+    "name": "Anandita Singh",
+    "price": 45,
+    "team": "The Three Racketeers",
+    "time": 1706194237437
+  },
+  {
+    "name": "Ananya agrawal",
+    "price": 13,
+    "team": "Löded Diper",
+    "time": 1706200326051
+  },
+  {
+    "name": "Aneek Chatterjee",
+    "price": 3,
+    "team": "The Three Racketeers",
+    "time": 1706200854601
+  },
+  {
+    "name": "Anika Urs",
+    "price": 41,
+    "team": "Asawarpur Racketeers",
+    "time": 1706194478649
+  },
+  {
+    "name": "Anjali Waghmare",
+    "price": 4,
+    "team": "Chhatti Pass",
+    "time": 1706199623361
+  },
+  {
+    "name": "Ankit Gupta",
+    "price": 2,
+    "team": "Pineapple Express",
+    "time": 1706200594864
+  },
+  {
+    "name": "Anshul Tekriwal",
+    "price": 2,
+    "team": "Haryana Hit Squad",
+    "time": 1706200495723
+  },
+  {
+    "name": "Anurag Moyde",
+    "price": 52,
+    "team": "Theka Sonipat",
+    "time": 1706192276450
+  },
+  {
+    "name": "Arhaan Gupta",
+    "price": 3,
+    "team": "Asawarpur Racketeers",
+    "time": 1706200462051
+  },
+  {
+    "name": "Arihant Mehta",
+    "price": 1,
+    "team": "Illegal Racquets",
+    "time": 1706200653160
+  },
+  {
+    "name": "Arjun Khanna",
+    "price": 3,
+    "team": "Asawarpur Racketeers",
+    "time": 1706200284108
+  },
+  {
+    "name": "Arnav Haldia",
+    "price": 1,
+    "team": "Löded Diper",
+    "time": 1706200630969
+  },
+  {
+    "name": "Arya Shah",
+    "price": 52,
+    "team": "Toofan Express",
+    "time": 1706191815359
+  },
+  {
+    "name": "Aryaman Rishi",
+    "price": 15,
+    "team": "Illegal Racquets",
+    "time": 1706197105443
+  },
+  {
+    "name": "Avisikta Sinha",
+    "price": 35,
+    "team": "Toofan Express",
+    "time": 1706191845468
+  },
+  {
+    "name": "Avyana Jain",
+    "price": 35,
+    "team": "Club Penguin",
+    "time": 1706193154683
+  },
+  {
+    "name": "Avyay Irde",
+    "price": 4,
+    "team": "Chhatti Pass",
+    "time": 1706202780956
+  },
+  {
+    "name": "Ayush Rawat",
+    "price": 1,
+    "team": "Löded Diper",
+    "time": 1706200710625
+  },
+  {
+    "name": "Bhavin Shivaa",
+    "price": 3,
+    "team": "Haryana Hit Squad",
+    "time": 1706200981774
+  },
+  {
+    "name": "Chaarvi Arora",
+    "price": 4,
+    "team": "Club Penguin",
+    "time": 1706199903467
+  },
+  {
+    "name": "Chitrakshi Siwach",
+    "price": 16,
+    "team": "Toofan Express",
+    "time": 1706195440929
+  },
+  {
+    "name": "Debadyuiti Ghosh",
+    "price": 1,
+    "team": "Chhatti Pass",
+    "time": 1706200612501
+  },
+  {
+    "name": "Deepak chaurasiya",
+    "price": 55,
+    "team": "Illegal Racquets",
+    "time": 1706191778095
+  },
+  {
+    "name": "Deepika",
+    "price": 45,
+    "team": "Pineapple Express",
+    "time": 1706194006212
+  },
+  {
+    "name": "Dev Doshi",
+    "price": 11,
+    "team": "Club Penguin",
+    "time": 1706195253969
+  },
+  {
+    "name": "Devaki",
+    "price": 16,
+    "team": "Incognito Mode",
+    "time": 1706195186739
+  },
+  {
+    "name": "Devesh Bajaj",
+    "price": 6,
+    "team": "Theka Sonipat",
+    "time": 1706198634725
+  },
+  {
+    "name": "Dhan Kumar Rastogi",
+    "price": 1,
+    "team": "Illegal Racquets",
+    "time": 1706202018864
+  },
+  {
+    "name": "Dhruv Achappa",
+    "price": 4,
+    "team": "Club Penguin",
+    "time": 1706199921140
+  },
+  {
+    "name": "Dilshad Alam",
+    "price": 25,
+    "team": "Toofan Express",
+    "time": 1706194163466
+  },
+  {
+    "name": "Diya Roongta",
+    "price": 13,
+    "team": "Theka Sonipat",
+    "time": 1706199012670
+  },
+  {
+    "name": "Garvit",
+    "price": 1,
+    "team": "Toofan Express",
+    "time": 1706201961105
+  },
+  {
+    "name": "Gokul Sundararaghavan",
+    "price": 51,
+    "team": "Magic Moments",
+    "time": 1706194535198
+  },
+  {
+    "name": "Harsh Jha",
+    "price": 4,
+    "team": "Toofan Express",
+    "time": 1706200404258
+  },
+  {
+    "name": "Harshit Aggarwal",
+    "price": 4,
+    "team": "Theka Sonipat",
+    "time": 1706199357936
+  },
+  {
+    "name": "Himangi Parekh",
+    "price": 17,
+    "team": "Pineapple Express",
+    "time": 1706197238888
+  },
+  {
+    "name": "Himanshi Lashkari",
+    "price": 4,
+    "team": "Theka Sonipat",
+    "time": 1706198726773
+  },
+  {
+    "name": "Hrithika Theres Tom",
+    "price": 28,
+    "team": "Haryana Hit Squad",
+    "time": 1706194357966
+  },
+  {
+    "name": "Isha Kanudia",
+    "price": 23,
+    "team": "Magic Moments",
+    "time": 1706196685415
+  },
+  {
+    "name": "Ishaan Shyampuria",
+    "price": 23,
+    "team": "Incognito Mode",
+    "time": 1706197390392
+  },
+  {
+    "name": "Ishana Sureka",
+    "price": 4,
+    "team": "Asawarpur Racketeers",
+    "time": 1706198930346
+  },
+  {
+    "name": "Ishpreet Kaur",
+    "price": 45,
+    "team": "The Three Racketeers",
+    "time": 1706194222403
+  },
+  {
+    "name": "Ishrit Khaneja",
+    "price": 1,
+    "team": "Illegal Racquets",
+    "time": 1706200195990
+  },
+  {
+    "name": "Juhi Bhargava",
+    "price": 48,
+    "team": "Incognito Mode",
+    "time": 1706192038119
+  },
+  { "name": "Juni", "price": 9, "team": "Club Penguin", "time": 1706198588487 },
+  {
+    "name": "Kahaan Shah",
+    "price": 4,
+    "team": "The Three Racketeers",
+    "time": 1706198756972
+  },
+  {
+    "name": "Kashyap J",
+    "price": 4,
+    "team": "Magic Moments",
+    "time": 1706201932088
+  },
+  {
+    "name": "Keshav Agrawal",
+    "price": 11,
+    "team": "The Three Racketeers",
+    "time": 1706196606776
+  },
+  {
+    "name": "Kiah Mehta",
+    "price": 9,
+    "team": "Theka Sonipat",
+    "time": 1706196548085
+  },
+  {
+    "name": "Krish Avalani",
+    "price": 11,
+    "team": "The Three Racketeers",
+    "time": 1706197440330
+  },
+  {
+    "name": "Kusum Kumari",
+    "price": 4,
+    "team": "Illegal Racquets",
+    "time": 1706199205449
+  },
+  {
+    "name": "Lavanya Maheshwari",
+    "price": 15,
+    "team": "Haryana Hit Squad",
+    "time": 1706197289083
+  },
+  {
+    "name": "Manan Nahar",
+    "price": 40,
+    "team": "Löded Diper",
+    "time": 1706192355636
+  },
+  {
+    "name": "Manika Jindal",
+    "price": 33,
+    "team": "Illegal Racquets",
+    "time": 1706192179009
+  },
+  {
+    "name": "Manish Gupta",
+    "price": 4,
+    "team": "Magic Moments",
+    "time": 1706199891360
+  },
+  {
+    "name": "Manya Mishra",
+    "price": 20,
+    "team": "Magic Moments",
+    "time": 1706197040369
+  },
+  {
+    "name": "Megha Nair",
+    "price": 12,
+    "team": "The Three Racketeers",
+    "time": 1706199085755
+  },
+  {
+    "name": "Mehek Anand",
+    "price": 58,
+    "team": "Pineapple Express",
+    "time": 1706193942535
+  },
+  {
+    "name": "Nagib Mehfuz",
+    "price": 3,
+    "team": "Magic Moments",
+    "time": 1706202058562
+  },
+  {
+    "name": "Naman Ananth Donti",
+    "price": 3,
+    "team": "Pineapple Express",
+    "time": 1706201883417
+  },
+  {
+    "name": "Nandini Agrawal",
+    "price": 12,
+    "team": "Löded Diper",
+    "time": 1706198887120
+  },
+  {
+    "name": "Nikhil Mishra",
+    "price": 11,
+    "team": "Pineapple Express",
+    "time": 1706198699710
+  },
+  {
+    "name": "Nisanka Khataniar",
+    "price": 4,
+    "team": "Toofan Express",
+    "time": 1706199436472
+  },
+  {
+    "name": "Nishant Singh",
+    "price": 1,
+    "team": "Incognito Mode",
+    "time": 1706201985151
+  },
+  {
+    "name": "Niswarth",
+    "price": 10,
+    "team": "Incognito Mode",
+    "time": 1706196469994
+  },
+  {
+    "name": "Pradyumna Subhir",
+    "price": 11,
+    "team": "Asawarpur Racketeers",
+    "time": 1706196323863
+  },
+  {
+    "name": "Pranav Kapur",
+    "price": 16,
+    "team": "Club Penguin",
+    "time": 1706195367612
+  },
+  {
+    "name": "Pranav Koka",
+    "price": 37,
+    "team": "Asawarpur Racketeers",
+    "time": 1706194409297
+  },
+  {
+    "name": "Purvi Tantia",
+    "price": 8,
+    "team": "Löded Diper",
+    "time": 1706199134353
+  },
+  {
+    "name": "Quanisha Saboo",
+    "price": 3,
+    "team": "Illegal Racquets",
+    "time": 1706202006123
+  },
+  {
+    "name": "Rajit Mundhra",
+    "price": 26,
+    "team": "Haryana Hit Squad",
+    "time": 1706192387357
+  },
+  {
+    "name": "Reuben Chacko",
+    "price": 1,
+    "team": "Illegal Racquets",
+    "time": 1706200576659
+  },
+  {
+    "name": "Reyanshi",
+    "price": 15,
+    "team": "Incognito Mode",
+    "time": 1706197006489
+  },
+  {
+    "name": "Rudransh",
+    "price": 2,
+    "team": "Pineapple Express",
+    "time": 1706200538583
+  },
+  {
+    "name": "Saanika Mohindra",
+    "price": 29,
+    "team": "Asawarpur Racketeers",
+    "time": 1706194501024
+  },
+  {
+    "name": "Saima Mehta",
+    "price": 28,
+    "team": "Toofan Express",
+    "time": 1706195759442
+  },
+  {
+    "name": "Saptarishi Dhanuka",
+    "price": 12,
+    "team": "Theka Sonipat",
+    "time": 1706195226283
+  },
+  {
+    "name": "Satwik Dubey",
+    "price": 5,
+    "team": "Magic Moments",
+    "time": 1706200244827
+  },
+  {
+    "name": "Shaarav Garg",
+    "price": 24,
+    "team": "Theka Sonipat",
+    "time": 1706194371520
+  },
+  {
+    "name": "Shantanu Iyer",
+    "price": 4,
+    "team": "Pineapple Express",
+    "time": 1706198852644
+  },
+  {
+    "name": "Shreenand Bhattad",
+    "price": 21,
+    "team": "Incognito Mode",
+    "time": 1706196246349
+  },
+  {
+    "name": "Shreevats Bindal",
+    "price": 4,
+    "team": "Incognito Mode",
+    "time": 1706199472061
+  },
+  {
+    "name": "Shreya Mann",
+    "price": 10,
+    "team": "Chhatti Pass",
+    "time": 1706200684094
+  },
+  {
+    "name": "Shushant",
+    "price": 51,
+    "team": "Chhatti Pass",
+    "time": 1706191986860
+  },
+  {
+    "name": "Siddhant Goenka",
+    "price": 6,
+    "team": "The Three Racketeers",
+    "time": 1706198827878
+  },
+  {
+    "name": "Siddharth Chandak",
+    "price": 4,
+    "team": "Toofan Express",
+    "time": 1706199334793
+  },
+  {
+    "name": "Siddharth Menon",
+    "price": 31,
+    "team": "Pineapple Express",
+    "time": 1706195892981
+  },
+  {
+    "name": "Siddharth Natarajan",
+    "price": 16,
+    "team": "Asawarpur Racketeers",
+    "time": 1706196812215
+  },
+  {
+    "name": "Smayan Chada",
+    "price": 4,
+    "team": "Asawarpur Racketeers",
+    "time": 1706199298686
+  },
+  { "name": "Sneha", "price": 4, "team": "Löded Diper", "time": 1706198653390 },
+  {
+    "name": "Snehal Papnoi",
+    "price": 50,
+    "team": "Haryana Hit Squad",
+    "time": 1706194345993
+  },
+  {
+    "name": "Soham Dengra",
+    "price": 63,
+    "team": "Chhatti Pass",
+    "time": 1706192093565
+  },
+  {
+    "name": "Soham Tulsyan",
+    "price": 2,
+    "team": "Pineapple Express",
+    "time": 1706200384585
+  },
+  {
+    "name": "Soumil Agarwal",
+    "price": 15,
+    "team": "Incognito Mode",
+    "time": 1706195205924
+  },
+  {
+    "name": "Sunil Kataria",
+    "price": 4,
+    "team": "Toofan Express",
+    "time": 1706199661285
+  },
+  {
+    "name": "Taanish Arora",
+    "price": 14,
+    "team": "Incognito Mode",
+    "time": 1706195811650
+  },
+  {
+    "name": "Tanay Parekh",
+    "price": 10,
+    "team": "Theka Sonipat",
+    "time": 1706195507471
+  },
+  {
+    "name": "Trishika Singhania",
+    "price": 5,
+    "team": "Incognito Mode",
+    "time": 1706201946270
+  },
+  {
+    "name": "Umang Khandelwal",
+    "price": 27,
+    "team": "Magic Moments",
+    "time": 1706192330912
+  },
+  {
+    "name": "Ustatt Anand",
+    "price": 4,
+    "team": "Chhatti Pass",
+    "time": 1706198953407
+  },
+  {
+    "name": "Vaibhav Jain",
+    "price": 20,
+    "team": "Haryana Hit Squad",
+    "time": 1706196147347
+  },
+  {
+    "name": "Vani Kumar",
+    "price": 12,
+    "team": "Magic Moments",
+    "time": 1706200366464
+  },
+  {
+    "name": "Vanshika Mittal",
+    "price": 11,
+    "team": "Haryana Hit Squad",
+    "time": 1706196195063
+  },
+  {
+    "name": "Varun Muchhal",
+    "price": 7,
+    "team": "Löded Diper",
+    "time": 1706197131918
+  },
+  {
+    "name": "Vibhu Singh",
+    "price": 25,
+    "team": "The Three Racketeers",
+    "time": 1706196836467
+  },
+  {
+    "name": "Vineet Tiwari",
+    "price": 3,
+    "team": "Chhatti Pass",
+    "time": 1706200475399
+  },
+  {
+    "name": "Vishnu Prakash",
+    "price": 10,
+    "team": "Club Penguin",
+    "time": 1706195466271
+  },
+  {
+    "name": "Yash Keshan",
+    "price": 45,
+    "team": "Illegal Racquets",
+    "time": 1706192250901
+  },
+  {
+    "name": "Yashveer Singh",
+    "price": 8,
+    "team": "Magic Moments",
+    "time": 1706199524501
+  }
+]

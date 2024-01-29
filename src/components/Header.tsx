@@ -21,7 +21,7 @@ const LINKS = [
   { name: "Game Schedule", href: "/schedule" },
   { name: "Teams", href: "/teams" },
   { name: "Players", href: "/players" },
-  { name: "Live Auction", href: "/auction" },
+  // { name: "Live Auction", href: "/auction" },
 ];
 
 const Logo = () => (

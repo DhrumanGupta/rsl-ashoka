@@ -1,6 +1,8 @@
 import { Card } from "@nextui-org/card";
 import { useState } from "react";
 import Image from "next/image";
+import Players from "@/data/players.json";
+import cn from "@/lib/cn";
 
 const teamColors: any = {
   "Asawarpur Racketeers": "bg-[#e0c936]/[0.4] outline-[#e0c936]",
@@ -17,6 +19,7 @@ const teamColors: any = {
   "Toofan Express": "bg-[#22AED1]/[0.4] outline-[#22AED1]",
 };
 
+
 function CollapsibleComponent({
   state,
   setState,
@@ -31,14 +34,14 @@ function CollapsibleComponent({
   names: any;
 }) {
   const toggleCollapse = () => {
-    console.log(stateKey);
-    console.log(state);
+    // console.log(stateKey);
+    // console.log(state);
     const otherStateKey = stateKey === "owners" ? "players" : "owners";
     setState({ [otherStateKey]: false, [stateKey]: !state[stateKey] });
   };
 
   return (
-    <div className="m-4 px-4">
+    <div className="m-4 lg:mx-0 px-4">
       <div
         onClick={toggleCollapse}
         className={`flex items-center cursor-pointer select-none`}
@@ -58,12 +61,29 @@ function CollapsibleComponent({
         <span className="font-semibold ml-2">{title}</span>
       </div>
       <div
-        className={`p-2 rounded-sm m-1 text-left transition-height duration-300 ease-in-out ${
+        className={`p-2 rounded-sm text-left transition-height duration-300 ease-in-out ${
           state[stateKey] ? "" : "hidden"
         }`}
       >
         {names.length > 0 ? (
-          names.map((name: any) => <p key={name}>{name}</p>)
+          names.map((name: any) => (
+            <p key={name}>
+              {title === "Players" && (
+                <span
+                  className={cn(
+                    Players.find((x) => x.name === name)?.category ===
+                      "Non Cis Man"
+                      ? "text-white"
+                      : "text-gold",
+                    "mr-2"
+                  )}
+                >
+                  &#9679;
+                </span>
+              )}
+              {name}
+            </p>
+          ))
         ) : (
           <p className="italic">No {title.toLowerCase()}</p>
         )}
@@ -72,13 +92,21 @@ function CollapsibleComponent({
   );
 }
 
-export default TeamCard;
-
-function TeamCard({ team }: { team: any }) {
+function TeamCard({
+  team,
+  usedBudget,
+  totalBudget,
+}: {
+  team: any;
+  usedBudget: number;
+  totalBudget: number;
+}) {
   const [dropdownOpen, setDropdownOpen] = useState({
     owners: false,
     players: false,
   });
+
+  const remainingBudget = totalBudget - usedBudget;
 
   return (
     <div className={`w-full`}>
@@ -113,8 +141,18 @@ function TeamCard({ team }: { team: any }) {
             title={"Players"}
             names={team.players}
           />
+
+          <div className="relative w-full rounded-md bg-black/50 h-6  mt-4 overflow-hidden">
+            <div
+              className="h-full -z-10 bg-black absolute"
+              style={{ width: `${(remainingBudget / totalBudget) * 100}%` }}
+            ></div>
+            <p className="text-center text-white text font-bold">${remainingBudget}M</p>
+          </div>
         </div>
       </Card>
     </div>
   );
 }
+
+export default TeamCard;

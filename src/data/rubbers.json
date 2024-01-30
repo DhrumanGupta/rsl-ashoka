@@ -1,0 +1,1082 @@
+[
+  {
+    "team1": "Chhatti Pass",
+    "team2": "Theka Sonipat",
+    "team1Score": 0,
+    "team2Score": 0,
+    "pool": "A",
+    "trumpCard": null,
+    "matches": {
+      "tabletennis": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      },
+      "tennis": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      },
+      "squash": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        }
+      },
+      "badminton": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      }
+    }
+  },
+  {
+    "team1": "Incognito Mode",
+    "team2": "Chhatti Pass",
+    "team1Score": 0,
+    "team2Score": 0,
+    "pool": "A",
+    "trumpCard": null,
+    "matches": {
+      "tabletennis": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      },
+      "tennis": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      },
+      "squash": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        }
+      },
+      "badminton": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      }
+    }
+  },
+  {
+    "team1": "Theka Sonipat",
+    "team2": "Incognito Mode",
+    "team1Score": 0,
+    "team2Score": 0,
+    "pool": "A",
+    "trumpCard": null,
+    "matches": {
+      "tabletennis": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      },
+      "tennis": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      },
+      "squash": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        }
+      },
+      "badminton": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      }
+    }
+  },
+  {
+    "team1": "Club Penguin",
+    "team2": "Löded Diper",
+    "team1Score": 0,
+    "team2Score": 0,
+    "pool": "C",
+    "trumpCard": null,
+    "matches": {
+      "tabletennis": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      },
+      "tennis": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      },
+      "squash": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        }
+      },
+      "badminton": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      }
+    }
+  },
+  {
+    "team1": "Haryana Hit Squad",
+    "team2": "Club Penguin",
+    "team1Score": 0,
+    "team2Score": 0,
+    "pool": "C",
+    "trumpCard": null,
+    "matches": {
+      "tabletennis": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      },
+      "tennis": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      },
+      "squash": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        }
+      },
+      "badminton": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      }
+    }
+  },
+  {
+    "team1": "Löded Diper",
+    "team2": "Haryana Hit Squad",
+    "team1Score": 0,
+    "team2Score": 0,
+    "pool": "C",
+    "trumpCard": null,
+    "matches": {
+      "tabletennis": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      },
+      "tennis": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      },
+      "squash": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        }
+      },
+      "badminton": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      }
+    }
+  },
+  {
+    "team1": "Pineapple Express",
+    "team2": "Asawarpur Racketeers",
+    "team1Score": 0,
+    "team2Score": 0,
+    "pool": "B",
+    "trumpCard": null,
+    "matches": {
+      "tabletennis": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      },
+      "tennis": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      },
+      "squash": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        }
+      },
+      "badminton": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      }
+    }
+  },
+  {
+    "team1": "Toofan Express",
+    "team2": "Pineapple Express",
+    "team1Score": 0,
+    "team2Score": 0,
+    "pool": "B",
+    "trumpCard": null,
+    "matches": {
+      "tabletennis": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      },
+      "tennis": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      },
+      "squash": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        }
+      },
+      "badminton": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      }
+    }
+  },
+  {
+    "team1": "Asawarpur Racketeers",
+    "team2": "Toofan Express",
+    "team1Score": 0,
+    "team2Score": 0,
+    "pool": "B",
+    "trumpCard": null,
+    "matches": {
+      "tabletennis": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      },
+      "tennis": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      },
+      "squash": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        }
+      },
+      "badminton": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      }
+    }
+  },
+  {
+    "team1": "The Three Racketeers",
+    "team2": "Illegal Racquets",
+    "team1Score": 0,
+    "team2Score": 0,
+    "pool": "D",
+    "trumpCard": null,
+    "matches": {
+      "tabletennis": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      },
+      "tennis": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      },
+      "squash": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        }
+      },
+      "badminton": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      }
+    }
+  },
+  {
+    "team1": "Magic Moments",
+    "team2": "The Three Racketeers",
+    "team1Score": 0,
+    "team2Score": 0,
+    "pool": "D",
+    "trumpCard": null,
+    "matches": {
+      "tabletennis": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      },
+      "tennis": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      },
+      "squash": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        }
+      },
+      "badminton": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      }
+    }
+  },
+  {
+    "team1": "Illegal Racquets",
+    "team2": "Magic Moments",
+    "team1Score": 0,
+    "team2Score": 0,
+    "pool": "D",
+    "trumpCard": null,
+    "matches": {
+      "tabletennis": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      },
+      "tennis": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      },
+      "squash": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        }
+      },
+      "badminton": {
+        "cis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "noncis": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player": "",
+          "team2Player": ""
+        },
+        "doubles": {
+          "team1Score": [0],
+          "team2Score": [0],
+          "team1Player1": "",
+          "team1Player2": "",
+          "team2Player1": "",
+          "team2Player2": ""
+        }
+      }
+    }
+  }
+]

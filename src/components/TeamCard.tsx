@@ -3,6 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Players from "@/data/players.json";
 import cn from "@/lib/cn";
+import { getGoogleDriveImageLink } from "@/lib/image";
 
 const teamColors: any = {
   "Asawarpur Racketeers": "bg-[#e0c936]/[0.4] outline-[#e0c936]",
@@ -18,7 +19,6 @@ const teamColors: any = {
   "Theka Sonipat": "bg-[#911BAF]/[0.4] outline-[#911BAF]",
   "Toofan Express": "bg-[#22AED1]/[0.4] outline-[#22AED1]",
 };
-
 
 function CollapsibleComponent({
   state,
@@ -118,7 +118,7 @@ function TeamCard({
             <Image
               src={
                 team.logo
-                  ? `https://lh3.googleusercontent.com/d/${team.logo}=s480`
+                  ? getGoogleDriveImageLink(team.logo, 480)
                   : "/img/149071.png"
               }
               alt={team.name}
@@ -147,7 +147,9 @@ function TeamCard({
               className="h-full -z-10 bg-black absolute"
               style={{ width: `${(remainingBudget / totalBudget) * 100}%` }}
             ></div>
-            <p className="text-center text-white text font-bold">${remainingBudget}M</p>
+            <p className="text-center text-white text font-bold">
+              ${remainingBudget}M
+            </p>
           </div>
         </div>
       </Card>

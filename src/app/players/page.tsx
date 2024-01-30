@@ -20,6 +20,7 @@ import TableTennisSVG from "@/../public/img/tt.svg";
 import TennisSVG from "@/../public/img/tennis.svg";
 import SquashSVG from "@/../public/img/squash.svg";
 import Link from "next/link";
+import { getGoogleDriveImageLink } from "@/lib/image";
 
 const sortedPlayers = players.sort((a: any, b: any) => {
   if (a.name.toLowerCase() < b.name.toLowerCase()) return -1;
@@ -58,8 +59,8 @@ function PlayerCard({ player, openModal }: { player: any; openModal: any }) {
         onClick={openModal}
       >
         <Image
-          src={`https://lh3.googleusercontent.com/d/${player.photo}=s1080`}
-          blurDataURL={`https://lh3.googleusercontent.com/d/${player.photo}=s144`}
+          src={getGoogleDriveImageLink(player.photo)}
+          blurDataURL={getGoogleDriveImageLink(player.photo, 144)}
           alt={player.name}
           placeholder="blur"
           width={500}

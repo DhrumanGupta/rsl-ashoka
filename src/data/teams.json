@@ -1,5 +1,6 @@
 [
   {
+    "pool": "A",
     "name": "Chhatti Pass",
     "manager": "Anushka Gupta",
     "owners": [
@@ -26,6 +27,7 @@
     "logo": "1hp2x_8NvHkeApepHVTt_IORzyGJoMiQF"
   },
   {
+    "pool": "C",
     "name": "Club Penguin",
     "manager": "Aryamaan Girish",
     "owners": [
@@ -49,6 +51,7 @@
     "logo": "1RWkC8h0lDqvp2aVyiml6gVffmZPJppwz"
   },
   {
+    "pool": "C",
     "name": "Löded Diper",
     "manager": "Aditya Deshmukh",
     "owners": [
@@ -78,6 +81,7 @@
     "logo": "1ST56Nh_z76IUyOJU3YpXW4pBS3ao8_Oo"
   },
   {
+    "pool": "C",
     "name": "Haryana Hit Squad",
     "manager": "Myraa Ramchandani",
     "owners": ["Krishna Arora", "Myraa Ramchandani"],
@@ -96,6 +100,7 @@
     "logo": "1tFgf1riCcwvRnGBZ7HAUBKXHTTaXFTYq"
   },
   {
+    "pool": "B",
     "name": "Pineapple Express",
     "manager": "Shashwat Agrawal",
     "owners": [
@@ -120,6 +125,7 @@
     "logo": "1ApseLXsOMNneX9718zElrCzWtzzpChg6"
   },
   {
+    "pool": "B",
     "name": "Asawarpur Racketeers",
     "manager": "Reya Verma",
     "owners": ["Vibha Rawat", "Asmi Goel", "Reya Verma"],
@@ -138,6 +144,7 @@
     "logo": "1MoMxcXbijiCtibjUPfNMkm958p_zGxK9"
   },
   {
+    "pool": "D",
     "name": "The Three Racketeers",
     "manager": "Ailiya Philips",
     "owners": [
@@ -163,6 +170,7 @@
     "logo": "1NC_GobURqsPeNp_IdkjHo-o9IJgF3swJ"
   },
   {
+    "pool": "D",
     "name": "Illegal Racquets",
     "manager": "Shaurya Walia",
     "owners": [
@@ -190,6 +198,7 @@
     "logo": ""
   },
   {
+    "pool": "A",
     "name": "Theka Sonipat",
     "manager": "Shreyas Balasubramanian",
     "owners": [
@@ -215,6 +224,7 @@
     "logo": "1Z5v5OEKi5dErh0uU7VsK1gdN3QLX3sX_"
   },
   {
+    "pool": "D",
     "name": "Magic Moments",
     "manager": "Shrey Sethi",
     "owners": ["Harshit Amarnani", "Faariq Aashiq Wani", "Shrey Sethi"],
@@ -234,6 +244,7 @@
     "logo": "1bqFI2O0Pu2sNqgb_SMVfNHzRJx-j6dz4"
   },
   {
+    "pool": "B",
     "name": "Toofan Express",
     "manager": "Saransh Goel",
     "owners": ["Saransh", "Arya", "Nisanka", "Dhruman", "Rushil", "Bhavya"],
@@ -252,6 +263,7 @@
     "logo": "1ujKGPTugtuWihXgIOOv1FVVR-_QXZLmP"
   },
   {
+    "pool": "A",
     "name": "Incognito Mode",
     "manager": "Garima Upadhyay",
     "owners": [

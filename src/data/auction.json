@@ -732,5 +732,17 @@
     "price": 8,
     "team": "Magic Moments",
     "time": 1706199524501
+  },
+  {
+    "name": "Siddh Veer Bakshi",
+    "price": 4,
+    "team": "The Three Racketeers",
+    "time": 1706196098219
+  },
+  {
+    "name": "Parth Mahajan",
+    "price": 0,
+    "team": "Chhatti Pass",
+    "time": 1706196098220
   }
 ]

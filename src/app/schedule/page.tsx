@@ -128,6 +128,8 @@ const DoubleCategoryBlock = ({ data }: { data?: DoubleMatch }) => {
 
   const { team1Wins, team2Wins } = getWins(data);
 
+  console.log(data.team1Score, data.team2Score, team1Wins, team2Wins);
+
   return (
     <div className="flex justify-between items-center">
       <div>
@@ -207,7 +209,7 @@ const PoolCard = ({ data }: { data: Rubber[] }) => {
 };
 
 function Schedule() {
-  const rawData = useRealtimeData<any>("/");
+  const rawData = useRealtimeData<{ [key: string]: Rubber } | null>("/");
 
   const Rubbers: Rubber[] = useMemo(
     () => (rawData ? Object.values(rawData) : []),
@@ -255,9 +257,9 @@ const getWins = (match: SingleMatch | DoubleMatch) => {
   const totalGames = match.team1Score.length;
 
   for (let i = 0; i < totalGames; i++) {
-    if (match.team1Score[i] > match.team2Score[i]) {
+    if (Number(match.team1Score[i]) > Number(match.team2Score[i])) {
       team1Wins++;
-    } else if (match.team2Score[i] > match.team1Score[i]) {
+    } else if (Number(match.team2Score[i]) > Number(match.team1Score[i])) {
       team2Wins++;
     }
   }

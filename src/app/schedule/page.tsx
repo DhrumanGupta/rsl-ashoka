@@ -1,11 +1,11 @@
 "use client";
 import MaxWidthContainer from "@/components/MaxWidthContainer";
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 import Teams from "@/data/teams.json";
-import Rubbers from "@/data/rubbers.json";
 import Image from "next/image";
 import { getGoogleDriveImageLink } from "@/lib/image";
 import cn from "@/lib/cn";
+import useRealtimeData from "@/hooks/useRealtimeData";
 
 type Team = {
   pool: string;
@@ -34,8 +34,6 @@ type DoubleMatch = {
 type Rubber = {
   team1: string;
   team2: string;
-  team1Score: number;
-  team2Score: number;
   pool: string;
   trumpCard: any;
   matches: {
@@ -111,13 +109,14 @@ type SportsBlockProps = {
 };
 
 const SingleCategoryBlock = ({ data }: { data: SingleMatch }) => {
+  const { team1Wins, team2Wins } = getWins(data);
   return (
     <div className="flex justify-between items-center">
-      <p>{data.team1Player}</p>
-      <p>{data.team1Score}</p>
+      <p className="text-left">{data.team1Player}</p>
+      <p>{team1Wins}</p>
       <p>&mdash;</p>
-      <p>{data.team2Score}</p>
-      <p>{data.team2Player}</p>
+      <p>{team2Wins}</p>
+      <p className="text-right">{data.team2Player}</p>
     </div>
   );
 };
@@ -126,15 +125,18 @@ const DoubleCategoryBlock = ({ data }: { data?: DoubleMatch }) => {
   if (!data) {
     return null;
   }
+
+  const { team1Wins, team2Wins } = getWins(data);
+
   return (
     <div className="flex justify-between items-center">
       <div>
         <p>{data.team1Player1}</p>
         <p>{data.team1Player2}</p>
       </div>
-      <p>{data.team1Score}</p>
+      <p>{team1Wins}</p>
       <p>&mdash;</p>
-      <p>{data.team2Score}</p>
+      <p>{team2Wins}</p>
       <div>
         <p>{data.team2Player1}</p>
         <p>{data.team2Player2}</p>
@@ -145,7 +147,7 @@ const DoubleCategoryBlock = ({ data }: { data?: DoubleMatch }) => {
 
 const SportsBlock = ({ data, name }: SportsBlockProps) => {
   return (
-    <div className="mt-4 mx-4 lg:mx-8">
+    <div className="mt-4 lg:mx-8">
       <h3 className="text-lg text-center font-medium">{name}</h3>
       <SingleCategoryBlock data={data.cis} />
       <hr className="my-2 opacity-50" />
@@ -161,6 +163,8 @@ const RubberCard = ({ rubber }: { rubber: Rubber }) => {
   const team2 = Teams.find((team) => team.name === rubber.team2)!;
   const [selected, setSelected] = useState(false);
 
+  const { team1Score, team2Score } = getRubberScore(rubber);
+
   return (
     <div
       className="p-4 bg-gray-900 rounded-xl"
@@ -168,18 +172,20 @@ const RubberCard = ({ rubber }: { rubber: Rubber }) => {
     >
       <div className="flex justify-between items-center">
         <TeamLogo team={team1} />
-        <p className="text-xl lg:text-2xl font-medium">{rubber.team1Score}</p>
+        <p className="text-xl lg:text-2xl font-medium">{team1Score}</p>
         <p>&mdash;</p>
-        <p className="text-xl lg:text-2xl font-medium">{rubber.team2Score}</p>
+        <p className="text-xl lg:text-2xl font-medium">{team2Score}</p>
         <TeamLogo team={team2} />
       </div>
 
-      <div className={cn(selected ? "block" : "hidden")}>
-        <SportsBlock data={rubber.matches.tennis} name="Tennis" />
-        <SportsBlock data={rubber.matches.tabletennis} name="Table Tennis" />
-        <SportsBlock data={rubber.matches.badminton} name="Badminton" />
-        <SportsBlock data={rubber.matches.squash} name="Squash" />
-      </div>
+      {selected && (
+        <div>
+          <SportsBlock data={rubber.matches.tennis} name="Tennis" />
+          <SportsBlock data={rubber.matches.tabletennis} name="Table Tennis" />
+          <SportsBlock data={rubber.matches.badminton} name="Badminton" />
+          <SportsBlock data={rubber.matches.squash} name="Squash" />
+        </div>
+      )}
     </div>
   );
 };
@@ -201,7 +207,15 @@ const PoolCard = ({ data }: { data: Rubber[] }) => {
 };
 
 function Schedule() {
+  const rawData = useRealtimeData<any>("/");
+
+  const Rubbers: Rubber[] = useMemo(
+    () => (rawData ? Object.values(rawData) : []),
+    [rawData]
+  );
+
   const pools = groupByPool(Rubbers);
+
   return (
     <MaxWidthContainer className="min-h-hero">
       <p className="text-content mb-4 text-center">
@@ -227,8 +241,69 @@ function Schedule() {
             <PoolCard data={pool} key={i} />
           ))}
       </div>
+
+      {pools.length <= 0 && (
+        <p className="mt-8 text-content text-center">Loading..</p>
+      )}
     </MaxWidthContainer>
   );
+}
+
+const getWins = (match: SingleMatch | DoubleMatch) => {
+  let team1Wins = 0;
+  let team2Wins = 0;
+  const totalGames = match.team1Score.length;
+
+  for (let i = 0; i < totalGames; i++) {
+    if (match.team1Score[i] > match.team2Score[i]) {
+      team1Wins++;
+    } else if (match.team2Score[i] > match.team1Score[i]) {
+      team2Wins++;
+    }
+  }
+
+  // console.log(match.team1Score, match.team2Score);
+  // console.log(team1Wins, team2Wins);
+
+  return { team1Wins, team2Wins };
+};
+
+function getMatchWinner(
+  singleOrDoubleMatch: SingleMatch | DoubleMatch
+): number {
+  const { team1Wins, team2Wins } = getWins(singleOrDoubleMatch);
+  const totalGames = singleOrDoubleMatch.team1Score.length;
+
+  // Check if the match has concluded
+  if (team1Wins > totalGames / 2 || team2Wins > totalGames / 2) {
+    return team1Wins > team2Wins ? 1 : 2;
+  } else {
+    return 0; // Match in progress or draw
+  }
+}
+
+function getRubberScore(rubber: Rubber): {
+  team1Score: number;
+  team2Score: number;
+} {
+  let team1Score = 0;
+  let team2Score = 0;
+
+  // Iterate over each sport and match type
+  for (const sport in rubber.matches) {
+    // @ts-ignore
+    for (const matchType in rubber.matches[sport]) {
+      // @ts-ignore
+      const winner = getMatchWinner(rubber.matches[sport][matchType]);
+      if (winner === 1) {
+        team1Score += 1;
+      } else if (winner === 2) {
+        team2Score += 1;
+      }
+    }
+  }
+
+  return { team1Score, team2Score };
 }
 
 export default Schedule;

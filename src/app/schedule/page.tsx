@@ -166,11 +166,14 @@ const RubberCard = ({ rubber }: { rubber: Rubber }) => {
   const team2 = Teams.find((team) => team.name === rubber.team2)!;
   const [selected, setSelected] = useState(false);
 
-  const { team1Score, team2Score } = getRubberScore(rubber);
+  const { team1Score, team2Score, finished } = getRubberScore(rubber);
 
   return (
     <div
-      className="p-4 bg-gray-900 rounded-xl"
+      className={cn(
+        "p-4 bg-gray-900 rounded-xl",
+        finished && "border-green-500 border-2"
+      )}
       onClick={() => setSelected((prev) => !prev)}
     >
       <div className="flex justify-between items-center">
@@ -314,9 +317,11 @@ function getMatchWinner(
 function getRubberScore(rubber: Rubber): {
   team1Score: number;
   team2Score: number;
+  finished: boolean;
 } {
   let team1Score = 0;
   let team2Score = 0;
+  let finished = true;
 
   // Function to update score based on trump card status
   const updateScore = (winner: number, matchCategory: string) => {
@@ -346,11 +351,13 @@ function getRubberScore(rubber: Rubber): {
       if (winner !== 0) {
         // If the match is concluded
         updateScore(winner, matchCategory);
+      } else {
+        finished = false;
       }
     }
   }
 
-  return { team1Score, team2Score };
+  return { team1Score, team2Score, finished };
 }
 
 export default Schedule;

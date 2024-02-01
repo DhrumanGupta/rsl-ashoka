@@ -35,7 +35,8 @@ type Rubber = {
   team1: string;
   team2: string;
   pool: string;
-  trumpCard: any;
+  team1TrumpCard?: string;
+  team2TrumpCard?: string;
   matches: {
     tabletennis: {
       cis: SingleMatch;
@@ -284,6 +285,32 @@ function getMatchWinner(
   }
 }
 
+// function getRubberScore(rubber: Rubber): {
+//   team1Score: number;
+//   team2Score: number;
+// } {
+//   let team1Score = 0;
+//   let team2Score = 0;
+
+//   // Iterate over each sport and match type
+//   for (const sport in rubber.matches) {
+//     // @ts-ignore
+//     for (const matchType in rubber.matches[sport]) {
+//       const trump = rubber.trumpCard;
+
+//       // @ts-ignore
+//       const winner = getMatchWinner(rubber.matches[sport][matchType]);
+//       if (winner === 1) {
+//         team1Score += 1;
+//       } else if (winner === 2) {
+//         team2Score += 1;
+//       }
+//     }
+//   }
+
+//   return { team1Score, team2Score };
+// }
+
 function getRubberScore(rubber: Rubber): {
   team1Score: number;
   team2Score: number;
@@ -291,16 +318,34 @@ function getRubberScore(rubber: Rubber): {
   let team1Score = 0;
   let team2Score = 0;
 
+  // Function to update score based on trump card status
+  const updateScore = (winner: number, matchCategory: string) => {
+    const isTeam1Trump = rubber.team1TrumpCard === matchCategory;
+    const isTeam2Trump = rubber.team2TrumpCard === matchCategory;
+
+    if (winner === 1) {
+      team1Score += isTeam1Trump ? 2 : 1;
+      if (isTeam2Trump) {
+        team2Score -= 1;
+      }
+    } else if (winner === 2) {
+      team2Score += isTeam2Trump ? 2 : 1;
+      if (isTeam1Trump) {
+        team1Score -= 1;
+      }
+    }
+  };
+
   // Iterate over each sport and match type
   for (const sport in rubber.matches) {
     // @ts-ignore
     for (const matchType in rubber.matches[sport]) {
+      const matchCategory = `${sport}_${matchType}`;
       // @ts-ignore
       const winner = getMatchWinner(rubber.matches[sport][matchType]);
-      if (winner === 1) {
-        team1Score += 1;
-      } else if (winner === 2) {
-        team2Score += 1;
+      if (winner !== 0) {
+        // If the match is concluded
+        updateScore(winner, matchCategory);
       }
     }
   }

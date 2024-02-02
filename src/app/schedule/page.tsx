@@ -141,8 +141,8 @@ const DoubleCategoryBlock = ({ data }: { data?: DoubleMatch }) => {
       <p>&mdash;</p>
       <p>{team2Wins}</p>
       <div>
-        <p>{data.team2Player1}</p>
-        <p>{data.team2Player2}</p>
+        <p className="text-right">{data.team2Player1}</p>
+        <p className="text-right">{data.team2Player2}</p>
       </div>
     </div>
   );
@@ -168,6 +168,8 @@ const RubberCard = ({ rubber }: { rubber: Rubber }) => {
 
   const { team1Score, team2Score, finished } = getRubberScore(rubber);
 
+  const winning = team1Score > team2Score ? rubber.team1 : rubber.team2;
+
   return (
     <div
       className={cn(
@@ -176,6 +178,11 @@ const RubberCard = ({ rubber }: { rubber: Rubber }) => {
       )}
       onClick={() => setSelected((prev) => !prev)}
     >
+      {finished && (
+        <p className="mb-2 text-center text-content">
+          Winner: <span className="font-medium">{winning}</span>
+        </p>
+      )}
       <div className="flex justify-between items-center">
         <TeamLogo team={team1} />
         <p className="text-xl lg:text-2xl font-medium">{team1Score}</p>

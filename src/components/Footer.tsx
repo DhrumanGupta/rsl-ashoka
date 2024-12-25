@@ -7,20 +7,12 @@ function Footer() {
       <footer className="w-full">
         <p className="text-center text-gray-300">
           Made by{" "}
-          <a
-            className="text-blue-500 underline"
-            href="https://berlm.me"
-            target="_blank"
-          >
-            Dhruman Gupta
+          <a className="text-blue-500 underline" href="https://rushilgupta.in" target="_blank">
+            Rushil Gupta
           </a>{" "}
           and{" "}
-          <a
-            className="text-blue-500 underline"
-            href="https://rushilgupta.tech"
-            target="_blank"
-          >
-            Rushil Gupta
+          <a className="text-blue-500 underline" href="https://berlm.me" target="_blank">
+            Dhruman Gupta
           </a>
         </p>
         {/* <hr className="my-4 divide-secondary h-[1px]" /> */}

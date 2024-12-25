@@ -46,7 +46,7 @@ export default async function Home() {
           <PrizeBubble
             className="w-[95%] lg:w-full lg:left-[100%]"
             src={bubbles}
-            prize="25,000"
+            prize="30,000"
             textClassName="text-gold"
             description="1st Place"
           />
@@ -54,7 +54,7 @@ export default async function Home() {
           <PrizeBubble
             className="ml-auto -mr-4 -mt-8 w-[90%] lg:w-[95%] lg:right-[90%] lg:mt-16"
             src={bubbles}
-            prize="12,500"
+            prize="20,000"
             textClassName="text-silver"
             description="2nd Place"
           />
@@ -62,7 +62,7 @@ export default async function Home() {
           <PrizeBubble
             className="-ml-4 -mt-8 w-[85%] lg:w-[90%] lg:mt-24 lg:-ml-12"
             src={bubbles}
-            prize="7,500"
+            prize="10,000"
             textClassName="text-bronze"
             description="3rd Place"
           />

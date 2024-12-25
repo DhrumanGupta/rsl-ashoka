@@ -7,14 +7,7 @@ import Image from "next/image";
 import { Button } from "@nextui-org/button";
 import MaxWidthContainer from "@/components/MaxWidthContainer";
 import players from "@/data/players.json";
-import {
-  Modal,
-  ModalContent,
-  ModalHeader,
-  ModalBody,
-  ModalFooter,
-  useDisclosure,
-} from "@nextui-org/modal";
+import { Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, useDisclosure } from "@nextui-org/modal";
 import BadmintonSVG from "@/../public/img/badminton.svg";
 import TableTennisSVG from "@/../public/img/tt.svg";
 import TennisSVG from "@/../public/img/tennis.svg";
@@ -56,8 +49,7 @@ function PlayerCard({ player, openModal }: { player: any; openModal: any }) {
         )}
         isPressable
         isHoverable={false}
-        onClick={openModal}
-      >
+        onClick={openModal}>
         <Image
           src={getGoogleDriveImageLink(player.photo)}
           blurDataURL={getGoogleDriveImageLink(player.photo, 144)}
@@ -99,22 +91,9 @@ function PlayerCard({ player, openModal }: { player: any; openModal: any }) {
   );
 }
 
-function PlayerModal({
-  player,
-  isOpen,
-  onOpenChange,
-}: {
-  player: any;
-  isOpen: boolean;
-  onOpenChange: any;
-}) {
+function PlayerModal({ player, isOpen, onOpenChange }: { player: any; isOpen: boolean; onOpenChange: any }) {
   return (
-    <Modal
-      isOpen={isOpen}
-      onOpenChange={onOpenChange}
-      backdrop="blur"
-      placement="center"
-    >
+    <Modal isOpen={isOpen} onOpenChange={onOpenChange} backdrop="blur" placement="center">
       <ModalContent>
         {(onClose) => (
           <>
@@ -124,11 +103,8 @@ function PlayerModal({
               </p>
               {player.team !== "" && player.price > 0 && (
                 <p className="!font-normal  text-base">
-                  Sold to <span className="font-semibold">{player.team}</span>{" "}
-                  for{" "}
-                  <span className="font-semibold text-[#118C4F]">
-                    ${player.price}M
-                  </span>
+                  Sold to <span className="font-semibold">{player.team}</span> for{" "}
+                  <span className="font-semibold text-[#118C4F]">${player.price}M</span>
                 </p>
               )}
             </ModalHeader>
@@ -143,8 +119,7 @@ function PlayerModal({
                 const preferenceNo = ["1st", "2nd", "3rd"][i];
                 return (
                   <p className="leading-[0.5rem]" key={sport}>
-                    <span className="font-medium">{preferenceNo}:</span>{" "}
-                    {sportNames[sport]}
+                    <span className="font-medium">{preferenceNo}:</span> {sportNames[sport]}
                   </p>
                 );
               })}
@@ -190,8 +165,7 @@ export default function Timeline() {
                   tier == 3 && "text-bronze bg-amber-800/[0.85]",
                   tier == 4 && "text-fourth bg-cyan-800/[0.85]"
                 )}
-                href={`#tier${tier}`}
-              >
+                href={`#tier${tier}`}>
                 Tier {tier}
               </Link>
             );
@@ -199,19 +173,13 @@ export default function Timeline() {
         }
       </div>
       <div className="w-full items-center mb-8">
-        <PlayerModal
-          player={player}
-          isOpen={isOpen}
-          onOpenChange={onOpenChange}
-        />
+        <PlayerModal player={player} isOpen={isOpen} onOpenChange={onOpenChange} />
         <MaxWidthContainer className="mt-16 mb-12 md:mb-16 text-center">
           {/* <h1 className='text-[40px] md:text-8xl my-4 text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-300'> */}
           <h1 className="text-5xl md:text-8xl my-4 text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">
             THE PLAYERS
           </h1>
-          <p className="text-base md:text-lg">
-            Click on the players to see more
-          </p>
+          <p className="text-base md:text-lg">Click on the players to see more</p>
         </MaxWidthContainer>
 
         {
@@ -228,8 +196,7 @@ export default function Timeline() {
                   tier === 4 && " bg-fourth/[0.25]"
                 )}
                 id={`tier${tier}`}
-                key={tier}
-              >
+                key={tier}>
                 <p
                   className={cn(
                     "mb-6 font-semibold text-5xl mx-auto text-center",
@@ -237,8 +204,7 @@ export default function Timeline() {
                     tier === 2 && "text-silver",
                     tier === 3 && "text-bronze",
                     tier === 4 && "text-fourth"
-                  )}
-                >
+                  )}>
                   TIER {tier}
                 </p>
 

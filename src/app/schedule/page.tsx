@@ -113,11 +113,11 @@ const SingleCategoryBlock = ({ data }: { data: SingleMatch }) => {
   const { team1Wins, team2Wins } = getWins(data);
   return (
     <div className="flex justify-between items-center">
-      <p className="text-left">{data.team1Player}</p>
+      <p className="text-left">{data.team1Player.split(' ')[0]}</p>
       <p>{team1Wins}</p>
       <p>&mdash;</p>
       <p>{team2Wins}</p>
-      <p className="text-right">{data.team2Player}</p>
+      <p className="text-right">{data.team2Player.split(' ')[0]}</p>
     </div>
   );
 };
@@ -134,15 +134,15 @@ const DoubleCategoryBlock = ({ data }: { data?: DoubleMatch }) => {
   return (
     <div className="flex justify-between items-center">
       <div>
-        <p>{data.team1Player1}</p>
-        <p>{data.team1Player2}</p>
+        <p>{data.team1Player1.split(' ')[0]}</p>
+        <p>{data.team1Player2.split(' ')[0]}</p>
       </div>
       <p>{team1Wins}</p>
       <p>&mdash;</p>
       <p>{team2Wins}</p>
       <div>
-        <p className="text-right">{data.team2Player1}</p>
-        <p className="text-right">{data.team2Player2}</p>
+        <p className="text-right">{data.team2Player1.split(' ')[0]}</p>
+        <p className="text-right">{data.team2Player2.split(' ')[0]}</p>
       </div>
     </div>
   );
@@ -220,11 +220,11 @@ const PoolCard = ({ data }: { data: Rubber[] }) => {
 };
 
 function Schedule() {
-  return (
-    <MaxWidthContainer>
-      <h2 className="my-4 text-center pt-8">Coming Soon!</h2>
-    </MaxWidthContainer>
-  );
+  // return (
+  //   <MaxWidthContainer>
+  //     <h2 className="my-4 text-center pt-8">Coming Soon!</h2>
+  //   </MaxWidthContainer>
+  // );
   
   const rawData = useRealtimeData<{ [key: string]: Rubber } | null>("/");
 

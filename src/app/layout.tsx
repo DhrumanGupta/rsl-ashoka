@@ -12,7 +12,7 @@ const font = Poppins({
 });
 
 const baseUrl = 'https://racquetsportsleague.com';
-const title = 'Ashoka Racquet Sports League';
+const title = 'Ashoka Racquet Sports League 2.0';
 const description = "Ashoka's RPL";
 
 export const metadata: Metadata = {

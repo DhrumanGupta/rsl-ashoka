@@ -7,10 +7,10 @@ import bubbles from "@/../public/bubbles.png";
 import PrizeBubble from "@/components/PrizeBubble";
 
 const Images: THeroImage[] = [
-  { src: "/hero_squash.webp", alt: "Squash Court", base64: "" },
+  // { src: "/hero_squash.webp", alt: "Squash Court", base64: "" },
   { src: "/hero_tennis.webp", alt: "Tennis Court", base64: "" },
   { src: "/hero_tt.webp", alt: "Table Tennis Court", base64: "" },
-  { src: "/hero_badminton.webp", alt: "Badminton Court", base64: "" },
+  // { src: "/hero_badminton.webp", alt: "Badminton Court", base64: "" },
 ];
 
 export default async function Home() {
@@ -27,7 +27,7 @@ export default async function Home() {
         <div className="flex w-full h-full items-center justify-center child:z-10">
           <MaxWidthContainer>
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl my-6 text-center font-extrabold">
-              Ashoka Racquet Sports League
+              Ashoka Racquet Sports League 2.0
             </h1>
           </MaxWidthContainer>
         </div>

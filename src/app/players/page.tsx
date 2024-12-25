@@ -167,6 +167,12 @@ export default function Timeline() {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
   return (
+    <MaxWidthContainer>
+      <h2 className="my-4 text-center pt-8">Coming Soon!</h2>
+    </MaxWidthContainer>
+  );
+
+  return (
     <>
       <div className="fixed hidden max-w-fit max-h-fit z-20 min-[1080px]:flex flex-col gap-10 mr-12 min-[1280px]:mr-16 inset-y-0 right-0 my-auto">
         {

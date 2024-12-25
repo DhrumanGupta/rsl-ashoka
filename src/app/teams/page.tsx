@@ -118,7 +118,12 @@ function TeamBreakDown({ data }: { data?: AuctionHistory | null }) {
 
 const INITIAL_BUDGET = 175;
 
-export default function TeamPge() {
+export default function TeamPage() {
+  return (
+    <MaxWidthContainer>
+      <h2 className="my-4 text-center pt-8">Coming Soon!</h2>
+    </MaxWidthContainer>
+  );
   return (
     <div className="items-center mb-8">
       <MaxWidthContainer>

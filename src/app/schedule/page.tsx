@@ -220,6 +220,12 @@ const PoolCard = ({ data }: { data: Rubber[] }) => {
 };
 
 function Schedule() {
+  return (
+    <MaxWidthContainer>
+      <h2 className="my-4 text-center pt-8">Coming Soon!</h2>
+    </MaxWidthContainer>
+  );
+  
   const rawData = useRealtimeData<{ [key: string]: Rubber } | null>("/");
 
   const Rubbers: Rubber[] = useMemo(

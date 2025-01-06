@@ -150,8 +150,14 @@ export default function Players() {
   const [player, setPlayer] = useState(players[0]);
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
-  // Add refs for each tier
-  const tierRefs = [...Array(noTiers)].map(() => useRef<HTMLDivElement>(null));
+  // Create refs array directly instead of mapping
+  const tierRefs = [
+    useRef<HTMLDivElement>(null),
+    useRef<HTMLDivElement>(null),
+    useRef<HTMLDivElement>(null),
+    useRef<HTMLDivElement>(null),
+    useRef<HTMLDivElement>(null),
+  ];
 
   const scrollToTier = (index: number) => {
     const element = tierRefs[index]?.current;

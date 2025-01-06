@@ -34,18 +34,27 @@ const sportNames: { [key: string]: string } = {
   tennis: "Tennis",
   squash: "Squash",
 };
-const noTiers = 4;
+const noTiers = 5;
+
+const tierNumber_to_tierName: { [key: string]: string } = {
+  "1": "Marquee",
+  "2": "1",
+  "3": "2",
+  "4": "3",
+  "5": "4",
+};
 
 function PlayerCard({ player, openModal }: { player: any; openModal: any }) {
   return (
-    <div className="w-full aspect-w-10 aspect-h-13 hover:scale-[1.05] transition-all duration-300 ease-in-out">
+    <div className="z-[2] w-full aspect-w-10 aspect-h-13 hover:scale-[1.05] transition-all duration-300 ease-in-out">
       <Card
         className={cn(
           `!absolute w-full rounded-md bg-primary border-2`,
-          player.tier === 1 && "text-gold border-gold",
-          player.tier === 2 && "text-silver border-silver",
-          player.tier === 3 && "text-bronze border-bronze",
-          player.tier === 4 && "text-fourth border-fourth"
+          player.tier === "Marquee" && "text-marquee border-marquee",
+          player.tier === "1" && "text-gold border-gold",
+          player.tier === "2" && "text-silver border-silver",
+          player.tier === "3" && "text-bronze border-bronze",
+          player.tier === "4" && "text-fourth border-fourth"
         )}
         isPressable
         isHoverable={false}
@@ -68,7 +77,7 @@ function PlayerCard({ player, openModal }: { player: any; openModal: any }) {
         />
         <CardBody>
           <div className="text-center justify-center overflow-hidden my-auto w-full z-10">
-            <p className="text-[24px] font-bold capitalize">{player.name}</p>
+            <p className="text-[20px] font-bold capitalize">{player.name}</p>
             <div className="max-w-fit flex items-center gap-2 mx-auto">
               {player.sports.map(
                 (sport: string) =>
@@ -137,15 +146,15 @@ function PlayerModal({ player, isOpen, onOpenChange }: { player: any; isOpen: bo
 }
 
 // Players Page Component
-export default function Timeline() {
+export default function Players() {
   const [player, setPlayer] = useState(players[0]);
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
-  return (
-    <MaxWidthContainer>
-      <h2 className="my-4 text-center pt-8">Coming Soon!</h2>
-    </MaxWidthContainer>
-  );
+  // return (
+  //   <MaxWidthContainer>
+  //     <h2 className="my-4 text-center pt-8">Coming Soon!</h2>
+  //   </MaxWidthContainer>
+  // );
 
   return (
     <>
@@ -159,11 +168,12 @@ export default function Timeline() {
                 key={tier}
                 color="secondary"
                 className={cn(
-                  "text-base md:text-lg font-semibold rounded-full p-3 md:p-4 backdrop-brightness-50",
-                  tier == 1 && "text-gold bg-amber-600/[0.85]",
-                  tier == 2 && "text-silver bg-gray-500/[0.85]",
-                  tier == 3 && "text-bronze bg-amber-800/[0.85]",
-                  tier == 4 && "text-fourth bg-cyan-800/[0.85]"
+                  "relative text-base md:text-lg font-semibold rounded-full px-4 py-2 md:px-6 md:py-3 transform transition duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg active:translate-y-0 backdrop-blur-sm bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2",
+                  tier == 1 && "text-white bg-sky-200 focus:ring-marquee/50",
+                  tier == 2 && "text-gold bg-amber-600 focus:ring-amber-600/50",
+                  tier == 3 && "text-silver bg-gray-500 focus:ring-gray-500/50",
+                  tier == 4 && "text-bronze bg-amber-800 focus:ring-amber-800/50",
+                  tier == 5 && "text-fourth bg-cyan-800 focus:ring-cyan-800/50"
                 )}
                 href={`#tier${tier}`}>
                 Tier {tier}
@@ -172,10 +182,10 @@ export default function Timeline() {
           })
         }
       </div>
+
       <div className="w-full items-center mb-8">
         <PlayerModal player={player} isOpen={isOpen} onOpenChange={onOpenChange} />
         <MaxWidthContainer className="mt-16 mb-12 md:mb-16 text-center">
-          {/* <h1 className='text-[40px] md:text-8xl my-4 text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-300'> */}
           <h1 className="text-5xl md:text-8xl my-4 text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">
             THE PLAYERS
           </h1>
@@ -186,32 +196,36 @@ export default function Timeline() {
           // @ts-ignore
           [...Array(noTiers).keys()].map((tier) => {
             tier++;
+            const tierName = tierNumber_to_tierName[tier].length > 1 ? tierNumber_to_tierName[tier] : `Tier ${tierNumber_to_tierName[tier]}`;
+
             return (
               <div
                 className={cn(
-                  "w-full py-8",
-                  tier === 1 && " bg-gold/[0.25]",
-                  tier === 2 && " bg-silver/[0.25]",
-                  tier === 3 && " bg-bronze/[0.25]",
-                  tier === 4 && " bg-fourth/[0.25]"
+                  "w-full py-8 relative overflow-hidden",
+                  tier === 1 && "bg-marquee/[0.8] sparkle-bg",
+                  tier === 2 && "bg-gold/[0.3] sparkle-bg-sm",
+                  tier === 3 && "bg-silver/[0.25]",
+                  tier === 4 && "bg-bronze/[0.25]",
+                  tier === 5 && "bg-fourth/[0.25]"
                 )}
                 id={`tier${tier}`}
                 key={tier}>
                 <p
                   className={cn(
-                    "mb-6 font-semibold text-5xl mx-auto text-center",
-                    tier === 1 && "text-gold",
-                    tier === 2 && "text-silver",
-                    tier === 3 && "text-bronze",
-                    tier === 4 && "text-fourth"
+                    "mb-10 font-semibold text-5xl mx-auto text-center",
+                    tier === 1 && "text-white/90",
+                    tier === 2 && "text-gold",
+                    tier === 3 && "text-silver",
+                    tier === 4 && "text-bronze",
+                    tier === 5 && "text-fourth"
                   )}>
-                  TIER {tier}
+                  {tierName}
                 </p>
 
                 <MaxWidthContainer>
                   <div className="grid grid-cols-1 sm:grid-cols-2 min-[1080px]:grid-cols-3 mx-auto items-center gap-12 w-11/12 md:w-full">
                     {sortedPlayers
-                      .filter((player: any) => player.tier == tier)
+                      .filter((player: any) => player.tier == tierNumber_to_tierName[tier])
                       .map((player: any) => {
                         return (
                           <PlayerCard
@@ -231,6 +245,49 @@ export default function Timeline() {
           })
         }
       </div>
+
+      <style jsx>{`
+        .sparkle-bg {
+          position: relative;
+          z-index: 1;
+        }
+
+        .sparkle-bg::before,
+        .sparkle-bg::after {
+          content: "";
+          position: absolute;
+          top: -50%;
+          left: -50%;
+          width: 200%;
+          height: 200%;
+          pointer-events: none;
+          background-repeat: repeat;
+          background-image: radial-gradient(rgba(255, 255, 255, 0.5) 2px, transparent 2px);
+          background-size: 20px 20px;
+          opacity: 0.2;
+        }
+
+        .sparkle-bg-sm {
+          position: relative;
+          z-index: 1;
+        }
+
+        .sparkle-bg-sm::before,
+        .sparkle-bg-sm::after {
+          content: "";
+          position: absolute;
+          top: -50%;
+          left: -50%;
+          width: 200%;
+          height: 200%;
+          pointer-events: none;
+          background-repeat: repeat;
+          background-image: radial-gradient(rgba(255, 255, 255, 0.5) 2px, transparent 2px);
+          background-size: 30px 30px;
+          opacity: 0.2;
+        }
+
+      `}</style>
     </>
   );
 }

@@ -43,7 +43,7 @@ export default function Header() {
   return (
     <Navbar
       position="sticky"
-      className="h-20"
+      className="h-20 z-[10]"
       maxWidth="xl"
       onMenuOpenChange={setIsMenuOpen}
     >

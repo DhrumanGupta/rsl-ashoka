@@ -1,21 +1,22 @@
-import type { Config } from 'tailwindcss';
-import { nextui } from '@nextui-org/theme';
-import colors from 'tailwindcss/colors';
+import type { Config } from "tailwindcss";
+import { nextui } from "@nextui-org/theme";
+import colors from "tailwindcss/colors";
 
 const config: Config = {
   content: [
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './node_modules/@nextui-org/theme/dist/components/(button|card|image|navbar|modal).js',
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/@nextui-org/theme/dist/components/(button|card|image|navbar|modal).js",
   ],
   // safelist: ["sm:hidden ssm:flex"],
-  darkMode: 'class',
+  darkMode: "class",
   theme: {
     extend: {
       height: {
-        hero: 'calc(100vh - 5rem)',
+        hero: "calc(100vh - 5rem)",
       },
       colors: {
+        marquee: "#B9D9EB",
         gold: colors.amber[400],
         silver: colors.gray[300],
         bronze: colors.amber[600],
@@ -29,23 +30,23 @@ const config: Config = {
       themes: {
         dark: {
           colors: {
-            primary: '#0e3882',
+            primary: "#0e3882",
             secondary: colors.amber[400],
           },
         },
         light: {
           colors: {
-            primary: '#2E3192',
+            primary: "#2E3192",
             secondary: colors.amber[400],
           },
         },
       },
     }),
-    require('@tailwindcss/aspect-ratio'),
+    require("@tailwindcss/aspect-ratio"),
 
     // @ts-ignore
     function ({ addVariant, addComponents }) {
-      addVariant('child', '& > *');
+      addVariant("child", "& > *");
     },
   ],
 };

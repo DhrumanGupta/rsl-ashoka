@@ -87,7 +87,7 @@ function TeamBreakDown({ data }: { data?: AuctionHistory | null }) {
             <tr className="border-b-2 border-gray-300">
               <th className="font-bold">Team</th>
               <th className="font-bold">Total Players</th>
-              <th className="font-bold">Non Cis Man Players</th>
+              <th className="font-bold">Non Cis Men</th>
               {/* <th className="font-bold">Time</th> */}
             </tr>
           </thead>

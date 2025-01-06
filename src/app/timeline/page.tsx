@@ -63,7 +63,17 @@ function convertTo2DArray(arr: any) {
   return result;
 }
 
-function EventCard({ event, i, j, today }: { event: any; i: number; today: Date; j: number }) {
+function EventCard({
+  event,
+  i,
+  j,
+  today,
+}: {
+  event: any;
+  i: number;
+  today: Date;
+  j: number;
+}) {
   const sizeStyle = `w-[250px] md:w-[300px] h-[250px] md:h-[300px]`;
   const date = new Date(event.date);
 
@@ -159,7 +169,15 @@ export default function Timeline() {
           return (
             <div key={i} className={cn("flex flex-col lg:flex-row items-stretch", i % 2 === 1 && "flex-col-reverse")}>
               {eventRow.map((event: any, j: any) => {
-                return <EventCard key={event.date} event={event} i={i} j={j} today={today} />;
+                return (
+                  <EventCard
+                    key={event.date}
+                    event={event}
+                    i={i}
+                    j={j}
+                    today={today}
+                  />
+                );
               })}
             </div>
           );

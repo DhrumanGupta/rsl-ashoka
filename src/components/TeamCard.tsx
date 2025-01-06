@@ -34,8 +34,6 @@ function CollapsibleComponent({
   names: any;
 }) {
   const toggleCollapse = () => {
-    // console.log(stateKey);
-    // console.log(state);
     const otherStateKey = stateKey === "owners" ? "players" : "owners";
     setState({ [otherStateKey]: false, [stateKey]: !state[stateKey] });
   };
@@ -81,7 +79,9 @@ function CollapsibleComponent({
                   &#9679;
                 </span>
               )}
-              {name}
+              {name} {
+                title === "Players" && <>(${Players.find(x => x.name === name)?.price}M)</>
+              }
             </p>
           ))
         ) : (
@@ -111,9 +111,9 @@ function TeamCard({
   return (
     <div className={`w-full`}>
       <Card
-        className={`${teamColors[team.name]} outline-offset-4 w-full min-h-96`}
+        className={`${teamColors[team.name]} outline-offset-4 w-full min-h-96 h-full`}
       >
-        <div className="p-5 text-center mt-4 drop-shadow-md">
+        <div className="p-5 text-center mt-4 drop-shadow-md h-full flex flex-col">
           <div className="relative overflow-hidden mx-auto w-2/5 aspect-1 mb-4">
             <Image
               src={
@@ -127,6 +127,7 @@ function TeamCard({
             />
           </div>
           <p className="text-3xl font-bold w-full mb-1">{team.name}</p>
+          <div className="mt-auto"/>
           <CollapsibleComponent
             state={dropdownOpen}
             setState={setDropdownOpen}

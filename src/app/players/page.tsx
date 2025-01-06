@@ -1,7 +1,7 @@
 "use client";
 
 import cn from "@/lib/cn";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { Card, CardBody } from "@nextui-org/card";
 import Image from "next/image";
 import { Button } from "@nextui-org/button";
@@ -150,11 +150,20 @@ export default function Players() {
   const [player, setPlayer] = useState(players[0]);
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
-  // return (
-  //   <MaxWidthContainer>
-  //     <h2 className="my-4 text-center pt-8">Coming Soon!</h2>
-  //   </MaxWidthContainer>
-  // );
+  // Add refs for each tier
+  const tierRefs = [...Array(noTiers)].map(() => useRef<HTMLDivElement>(null));
+
+  const scrollToTier = (index: number) => {
+    const element = tierRefs[index]?.current;
+    if (element) {
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.scrollY - 80; // 100px offset
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+  };
 
   return (
     <>
@@ -163,21 +172,21 @@ export default function Players() {
           // @ts-ignore
           [...Array(noTiers).keys()].map((tier) => {
             tier++;
+            const tierName = tierNumber_to_tierName[tier].length > 1 ? tierNumber_to_tierName[tier] : `Tier ${tierNumber_to_tierName[tier]}`;
             return (
-              <Link
+              <button
                 key={tier}
-                color="secondary"
+                onClick={() => scrollToTier(tier - 1)}
                 className={cn(
-                  "relative text-base md:text-lg font-semibold rounded-full px-4 py-2 md:px-6 md:py-3 transform transition duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg active:translate-y-0 backdrop-blur-sm bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2",
+                  "relative text-center text-base font-semibold rounded-full px-2 py-2 md:px-6 md:py-3 transform transition duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg active:translate-y-0 backdrop-blur-sm bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2",
                   tier == 1 && "text-white bg-sky-200 focus:ring-marquee/50",
                   tier == 2 && "text-gold bg-amber-600 focus:ring-amber-600/50",
                   tier == 3 && "text-silver bg-gray-500 focus:ring-gray-500/50",
                   tier == 4 && "text-bronze bg-amber-800 focus:ring-amber-800/50",
                   tier == 5 && "text-fourth bg-cyan-800 focus:ring-cyan-800/50"
-                )}
-                href={`#tier${tier}`}>
-                Tier {tier}
-              </Link>
+                )}>
+                {tierName}
+              </button>
             );
           })
         }
@@ -200,6 +209,7 @@ export default function Players() {
 
             return (
               <div
+                ref={tierRefs[tier - 1]}
                 className={cn(
                   "w-full py-8 relative overflow-hidden",
                   tier === 1 && "bg-marquee/[0.8] sparkle-bg",
@@ -208,7 +218,6 @@ export default function Players() {
                   tier === 4 && "bg-bronze/[0.25]",
                   tier === 5 && "bg-fourth/[0.25]"
                 )}
-                id={`tier${tier}`}
                 key={tier}>
                 <p
                   className={cn(
@@ -286,7 +295,6 @@ export default function Players() {
           background-size: 30px 30px;
           opacity: 0.2;
         }
-
       `}</style>
     </>
   );

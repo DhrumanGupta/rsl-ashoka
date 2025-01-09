@@ -119,34 +119,35 @@ function TeamBreakDown({ data }: { data?: AuctionHistory | null }) {
 const INITIAL_BUDGET = 175;
 
 export default function TeamPage() {
-  return (
-    <MaxWidthContainer>
-      <h2 className="my-4 text-center pt-8">Coming Soon!</h2>
-    </MaxWidthContainer>
-  );
+  // return (
+  //   <MaxWidthContainer>
+  //     <h2 className="my-4 text-center pt-8">Coming Soon!</h2>
+  //   </MaxWidthContainer>
+  // );
   return (
     <div className="items-center mb-8">
       <MaxWidthContainer>
-        <h2 className="my-4">Teams</h2>
+        <h2 className="my-6 mx-auto text-center">Teams</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto w-5/6 sm:w-full">
           {sortedTeams.map((team: any, i: any) => (
             <TeamCard
               key={team.name}
               team={team}
-              usedBudget={(
-                AuctionInfo?.filter((x) => x.team === team.name) ?? []
-              ).reduce((a, b) => a + b.price, 0)}
+              // usedBudget={(
+              //   AuctionInfo?.filter((x) => x.team === team.name) ?? []
+              // ).reduce((a, b) => a + b.price, 0)}
+              usedBudget={0}
               totalBudget={INITIAL_BUDGET}
             />
           ))}
         </div>
 
-        <h2 className="mb-4 mt-8">Auction History</h2>
+        {/* <h2 className="mb-4 mt-8">Auction History</h2>
         <AuctionHistory data={AuctionInfo} />
 
         <h2 className="mb-4 mt-8">Team Breakdown</h2>
-        <TeamBreakDown data={AuctionInfo} />
+        <TeamBreakDown data={AuctionInfo} /> */}
       </MaxWidthContainer>
     </div>
   );

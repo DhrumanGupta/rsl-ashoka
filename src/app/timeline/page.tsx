@@ -162,7 +162,7 @@ export default function Timeline() {
 
   return (
     <div className="flex flex-col items-center mb-8">
-      <h1 className="text-4xl my-8 text-center font-bold">Timeline</h1>
+       <h2 className="my-6 mx-auto text-center">Teams</h2>
 
       <div className="flex flex-col">
         {events2D.map((eventRow: any, i: any) => {

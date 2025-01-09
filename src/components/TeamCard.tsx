@@ -6,82 +6,50 @@ import cn from "@/lib/cn";
 import { getGoogleDriveImageLink } from "@/lib/image";
 
 const teamColors: any = {
-  "Asawarpur Racketeers": "bg-[#e0c936]/[0.4] outline-[#e0c936]",
   "Chhatti Pass": "bg-[#E4080A]/[0.4] outline-[#E4080A]",
-  "Club Penguin": "bg-[#15007D]/[0.4] outline-[#15007D]",
-  "Haryana Hit Squad": "bg-[#EAA9FF]/[0.4] outline-[#EAA9FF]",
-  "Illegal Racquets": "bg-[#35C08E]/[0.4] outline-[#35C08E]",
-  "Incognito Mode": "bg-[#F16192]/[0.4] outline-[#F16192]",
-  "Löded Diper": "bg-[#FE9902]/[0.4] outline-[#FE9902]",
-  "Magic Moments": "bg-[#98794B]/[0.4] outline-[#98794B]",
-  "Pineapple Express": "bg-[#0E7511]/[0.4] outline-[#0E7511]",
-  "The Three Racketeers": "bg-[#84171A]/[0.4] outline-[#84171A]",
-  "Theka Sonipat": "bg-[#911BAF]/[0.4] outline-[#911BAF]",
+  "Club Penguin": "bg-[#02066F]/[0.4] outline-[#02066F]",
+  "Incognito Mode": "bg-[#F16166]/[0.4] outline-[#F16166]",
+  "Magic Moments": "bg-[#292828]/[0.4] outline-[#292828]",
+  "The Three Racketeers": "bg-[#E0BA96]/[0.4] outline-[#E0BA96]",
   "Toofan Express": "bg-[#22AED1]/[0.4] outline-[#22AED1]",
+  "Dabangg Dilli": "bg-[#04083b]/[0.4] outline-[#04083b]",
+  LASSIO: "bg-[#FFFDD0]/[0.4] outline-[#FFFDD0]",
+  "Absolut Aces": "bg-[#0100AD]/[0.4] outline-[#0100AD]",
+  "Babble Paddle": "bg-[#460170]/[0.4] outline-[#460170]",
+  "Kai Mantos RSC": "bg-[#FFFFFF]/[0.4] outline-[#FFFFFF]",
+  RSLnanda: "bg-[#8ACE00]/[0.4] outline-[#8ACE00]",
+  Puzzles: "bg-[#b6a112]/[0.4] outline-[#b6a112]",
+  Sharpshooters: "bg-[#191970]/[0.4] outline-[#191970]",
 };
 
-function CollapsibleComponent({
-  state,
-  setState,
-  stateKey,
-  title,
-  names,
-}: {
-  state: any;
-  stateKey: any;
-  setState: any;
-  title: string;
-  names: any;
-}) {
+function CollapsibleComponent({ state, setState, stateKey, title, names }: { state: any; stateKey: any; setState: any; title: string; names: any }) {
   const toggleCollapse = () => {
     const otherStateKey = stateKey === "owners" ? "players" : "owners";
     setState({ [otherStateKey]: false, [stateKey]: !state[stateKey] });
   };
 
+  if (names.length === 0) {
+    return null;
+  }
+
   return (
     <div className="m-4 lg:mx-0 px-4">
-      <div
-        onClick={toggleCollapse}
-        className={`flex items-center cursor-pointer select-none`}
-      >
-        <span
-          className={`transform transition-transform ${
-            state[stateKey] ? "rotate-180" : "rotate-90"
-          }`}
-        >
-          <Image
-            src={"/img/triangle.png"}
-            alt="triangle"
-            width={20}
-            height={20}
-          ></Image>
+      <div onClick={toggleCollapse} className={`flex items-center cursor-pointer select-none`}>
+        <span className={`transform transition-transform ${state[stateKey] ? "rotate-180" : "rotate-90"}`}>
+          <Image src={"/img/triangle.png"} alt="triangle" width={20} height={20}></Image>
         </span>
         <span className="font-semibold ml-2">{title}</span>
       </div>
-      <div
-        className={`p-2 rounded-sm text-left transition-height duration-300 ease-in-out ${
-          state[stateKey] ? "" : "hidden"
-        }`}
-      >
+      <div className={`p-2 rounded-sm text-left transition-height duration-300 ease-in-out ${state[stateKey] ? "" : "hidden"}`}>
         {names.length > 0 ? (
           names.map((name: any) => (
             <p key={name}>
               {title === "Players" && (
-                <span
-                  className={cn(
-                    Players.find((x) => x.name === name)?.category ===
-                      "Non Cis Man"
-                      ? "text-white"
-                      : "text-gold",
-                    "mr-2"
-                  )}
-                >
+                <span className={cn(Players.find((x) => x.name === name)?.category === "Non Cis Man" ? "text-white" : "text-gold", "mr-2")}>
                   &#9679;
                 </span>
               )}
-              {name} {
-                title === "Players" && <>(${Players.find(x => x.name === name)?.price}M)</>
-              }
+              {name} {title === "Players" && <>(${Players.find((x) => x.name === name)?.price}M)</>}
             </p>
           ))
         ) : (
@@ -92,15 +60,7 @@ function CollapsibleComponent({
   );
 }
 
-function TeamCard({
-  team,
-  usedBudget,
-  totalBudget,
-}: {
-  team: any;
-  usedBudget: number;
-  totalBudget: number;
-}) {
+function TeamCard({ team, usedBudget, totalBudget }: { team: any; usedBudget: number; totalBudget: number }) {
   const [dropdownOpen, setDropdownOpen] = useState({
     owners: false,
     players: false,
@@ -108,49 +68,29 @@ function TeamCard({
 
   const remainingBudget = totalBudget - usedBudget;
 
+  const inTeamColors = Object.keys(teamColors).includes(team.name);
+  if (!inTeamColors) console.log(team.name);
+
   return (
     <div className={`w-full`}>
-      <Card
-        className={`${teamColors[team.name]} outline-offset-4 w-full min-h-96 h-full`}
-      >
+      <Card className={cn(`outline-offset-4 w-full min-h-96 h-full`, inTeamColors && teamColors[team.name])}>
         <div className="p-5 text-center mt-4 drop-shadow-md h-full flex flex-col">
           <div className="relative overflow-hidden mx-auto w-2/5 aspect-1 mb-4">
             <Image
-              src={
-                team.logo
-                  ? getGoogleDriveImageLink(team.logo, 480)
-                  : "/img/149071.png"
-              }
+              src={team.logo ? getGoogleDriveImageLink(team.logo, 480) : "/img/149071.png"}
               alt={team.name}
               fill={true}
               className="rounded-full object-cover"
             />
           </div>
           <p className="text-3xl font-bold w-full mb-1">{team.name}</p>
-          <div className="mt-auto"/>
-          <CollapsibleComponent
-            state={dropdownOpen}
-            setState={setDropdownOpen}
-            stateKey={"owners"}
-            title={"Owners"}
-            names={team.owners}
-          />
-          <CollapsibleComponent
-            state={dropdownOpen}
-            setState={setDropdownOpen}
-            stateKey={"players"}
-            title={"Players"}
-            names={team.players}
-          />
+          <CollapsibleComponent state={dropdownOpen} setState={setDropdownOpen} stateKey={"owners"} title={"Owners"} names={team.owners} />
+          <div className="mt-auto" />
+          <CollapsibleComponent state={dropdownOpen} setState={setDropdownOpen} stateKey={"players"} title={"Players"} names={team.players} />
 
           <div className="relative w-full rounded-md bg-black/50 h-6  mt-4 overflow-hidden">
-            <div
-              className="h-full -z-10 bg-black absolute"
-              style={{ width: `${(remainingBudget / totalBudget) * 100}%` }}
-            ></div>
-            <p className="text-center text-white text font-bold">
-              ${remainingBudget}M
-            </p>
+            <div className="h-full -z-10 bg-black absolute" style={{ width: `${(remainingBudget / totalBudget) * 100}%` }}></div>
+            <p className="text-center text-white text font-bold">${remainingBudget}M</p>
           </div>
         </div>
       </Card>

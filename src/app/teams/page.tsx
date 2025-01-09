@@ -116,7 +116,7 @@ function TeamBreakDown({ data }: { data?: AuctionHistory | null }) {
   );
 }
 
-const INITIAL_BUDGET = 175;
+const INITIAL_BUDGET = 200;
 
 export default function TeamPage() {
   // return (

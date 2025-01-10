@@ -1159,7 +1159,7 @@
     "category": "Cis Man",
     "bio": "I have no idea why I am here:)",
     "photo": "1KD4_pUBdu8Lzra3H9MSXP_cfODMLt9pr",
-    "sports": ["badminton"],
+    "sports": ["squash", "badminton"],
     "tier": "4",
     "imagePosition": "c",
     "price": "NA",
@@ -1756,6 +1756,17 @@
     "sports": ["tableTennis"],
     "tier": "Marquee",
     "imagePosition": "c",
+    "price": "NA",
+    "team": "NA"
+  },
+  {
+    "name": "Reyanshi Kanoria",
+    "category": "Non Cis Man",
+    "bio": "",
+    "photo": "1kVoDMHzlo1W7cEtvh5X4xWOULap8Py1i",
+    "sports": ["squash", "tableTennis", "badminton"],
+    "tier": "2",
+    "imagePosition": "b",
     "price": "NA",
     "team": "NA"
   }

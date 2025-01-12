@@ -1769,5 +1769,16 @@
     "imagePosition": "b",
     "price": "NA",
     "team": "NA"
+  },
+  {
+    "name": "Ananya Kakar",
+    "category": "Non Cis Man",
+    "bio": "",
+    "photo": "1P-nViWf0X5sTNz5wzUpUR_Ec-YB6u2Dw",
+    "sports": ["tableTennis"],
+    "tier": "4",
+    "imagePosition": "c",
+    "price": "NA",
+    "team": "NA"
   }
 ]
